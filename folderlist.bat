@@ -1,0 +1,1 @@
+for /F "delims=" %%a IN (folderlist.txt) DO mkdir "%%a"

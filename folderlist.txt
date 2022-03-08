@@ -1,0 +1,13 @@
+Authenticator
+Calculator
+Calendar
+Clock
+Contacts
+Drive
+Gboard
+Keep
+Maps
+Messages
+MiXplorer
+Phone
+Photos

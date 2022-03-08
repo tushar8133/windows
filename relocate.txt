@@ -1,0 +1,9 @@
+When Settings screen appear while installing Windows
+Press CTRL + SHIFT + F3
+Windows will go into AUDIT MODE
+System Preparation Tool (Sysprep) dialog will appear, click cancel
+Now copy paste the xml file in the root of the desired drive
+Check if WMP Network Sharing Service is stopped using cmd (Administrator)
+net stop wmpnetworksvc
+Finally run below sysprep command
+%windir%\system32\sysprep\sysprep.exe /oobe /reboot /unattend:F:\relocate.xml
