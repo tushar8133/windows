@@ -175,6 +175,8 @@ del /A:r /A:s /A:h /S /F /P
 
 `explorer.exe shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}` - System Info (old)
 
+`devmgmt.msc` - Device Management
+
 `services.msc` - Open Services
 
 `sysdm.cpl` - System Properties
