@@ -1,3 +1,7 @@
+# Softwares
+* Sordum - Disable Update Services
+
+
 # Windows Shortcuts
 
 ### Bash Exe Shortcut
