@@ -4,6 +4,7 @@
 # Batter Power Saver
 * powercfg /s SCHEME_MIN
 * powercfg /s SCHEME_MAX
+* powercfg /s SCHEME_BALANCED
 * ms-settings:batterysaver
 
 # Windows Shortcuts
