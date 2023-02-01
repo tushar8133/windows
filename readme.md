@@ -1,6 +1,10 @@
 # Softwares
 * Sordum - Disable Update Services
 
+# Batter Power Saver
+* powercfg /s SCHEME_MIN
+* powercfg /s SCHEME_MAX
+* ms-settings:batterysaver
 
 # Windows Shortcuts
 
