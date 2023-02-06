@@ -1,3 +1,15 @@
+# Uninstall using Command Promt
+* Open cmd with Admin rights
+* Type `WMIC`
+* Type `product get name`
+* It will list all programs
+* Suppose it has "Node.js" in the list
+* Type `product where name="Node.js" call uninstall`
+* Allow pressing the `Y key`
+* Done
+
+
+
 # Softwares
 * Sordum - Disable Update Services
 
