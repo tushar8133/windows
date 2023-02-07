@@ -23,6 +23,8 @@
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
 * [TechBench by WZT](https://tb.rg-adguard.net/public.php)
 * [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
+* [UUP Dump](https://uupdump.net)
+* [RG-adguard](https://uup.rg-adguard.net)
 
 
 # Windows Shortcuts
