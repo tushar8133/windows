@@ -8,16 +8,11 @@
 * Allow pressing the `Y key`
 * Done
 
-
-
 # Softwares
 * Sordum - Disable Update Services
-
-# Batter Power Saver
-* powercfg /s SCHEME_MIN
-* powercfg /s SCHEME_MAX
-* powercfg /s SCHEME_BALANCED
-* ms-settings:batterysaver
+* WinDirStat, SpaceSniffer
+* WindowGrid
+* Rufus, Ventoy, Etcher
 
 # Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
@@ -116,7 +111,7 @@ del /A:r /A:s /A:h /S /F /P
 `System32\imageres.dll`
 
 ---
-## RUN Commands
+# RUN Commands
 
 `%ALLUSERSPROFILE%` - C:\ProgramData
 
@@ -225,3 +220,7 @@ del /A:r /A:s /A:h /S /F /P
 `shell:common startup` - startup system level
 
 `shell:startup` - startup user level
+
+`powercfg /s SCHEME_MIN` `SCHEME_MAX` `SCHEME_BALANCED` - Battery/Power
+
+`ms-settings:batterysaver` - Battery Power Savings Settings
