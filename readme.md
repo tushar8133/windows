@@ -53,10 +53,11 @@ bcdedit.exe /set nointegritychecks off
 
 ---
 ### Enable hibernation
+```
 run admin >> powercfg.exe /hibernate on
 run admin >> powercfg -h -size 100%
 restart
-
+```
 ---
 ### Taskbar Location
 `%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar`
@@ -112,6 +113,8 @@ del /A:r /A:s /A:h /S /F /P
 
 ---
 # RUN Commands
+
+https://ss64.com/nt/shell.html
 
 `%ALLUSERSPROFILE%` - C:\ProgramData
 
@@ -198,6 +201,8 @@ del /A:r /A:s /A:h /S /F /P
 `control /name Microsoft.System` - System Info (New)
 
 `explorer.exe shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}` - System Info (old)
+
+`explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}` - GOD Mode
 
 `devmgmt.msc` - Device Management
 
