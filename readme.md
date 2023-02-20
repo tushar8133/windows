@@ -1,3 +1,6 @@
+
+
+
 # Uninstall using Command Promt
 * Open cmd with Admin rights
 * Type `WMIC`
@@ -110,6 +113,10 @@ del /A:r /A:s /A:h /S /F /P
 `System32\SHELL32.dll`
 
 `System32\imageres.dll`
+
+---
+
+# SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
 
 ---
 # RUN Commands
