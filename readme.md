@@ -1,3 +1,5 @@
+## [MACOS.md](macos.md)
+
 # Uninstall using Command Promt
 * Open cmd with Admin rights
 * Type `WMIC`
