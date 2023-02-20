@@ -1,6 +1,3 @@
-
-
-
 # Uninstall using Command Promt
 * Open cmd with Admin rights
 * Type `WMIC`
@@ -14,8 +11,9 @@
 # Softwares
 * Sordum - Disable Update Services
 * WinDirStat, SpaceSniffer
-* WindowGrid
+* WindowGrid, WindowBlinds
 * Rufus, Ventoy, Etcher
+* WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
 
 # Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
@@ -34,7 +32,7 @@
 * Set **`Start In`** - `D:\MyProjects`
 
 ### Shutdown
-`shutdown /r /t 0`
+`shutdown -r -t 0`
 
 ### Windows Install Screen
 `Shift + F10` Will open command promt with X drive  
