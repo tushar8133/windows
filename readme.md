@@ -1,4 +1,67 @@
-## [MACOS.md](macos.md)
+## Mac OS Commands [(MACOS.md)](macos.md)
+
+## SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
+
+## RUN Commands [(ss64.com)](https://ss64.com/nt/shell.html)
+
+* `%ALLUSERSPROFILE%` - C:\ProgramData
+* `%APPDATA%` - C:\Users\{username}\AppData\Roaming
+* `%COMMONPROGRAMFILES%` - C:\Program Files\Common Files
+* `%COMMONPROGRAMFILES(x86)%` - C:\Program Files (x86)\Common Files
+* `%COMSPEC%` - C:\Windows\System32\cmd.exe
+* `%HOMEDRIVE%` - C:
+* `%HOMEPATH%` - C:\Users\{username}
+* `%LOCALAPPDATA%` - C:\Users\{username}\AppData\Local
+* `%localappdata%` C:\Users{username}\AppData\Local
+* `%PROGRAMDATA%` - C:\ProgramData
+* `%PROGRAMFILES%` - C:\Program Files
+* `%PROGRAMFILES(X86)%` - C:\Program Files (x86) (only in 64-bit version)
+* `%PUBLIC%` - C:\Users\Public
+* `%SystemDrive%` - C:
+* `%SystemRoot%` - C:\Windows
+* `%TEMP%` - C:\Users\{username}\AppData\Local\Temp
+* `%TMP%` - C:\Users\{username}\AppData\Local\Temp
+* `%USERPROFILE%` - C:\Users\{username}
+* `%WINDIR%` - C:\Windows
+* `appdata` - C:\Users{username}\AppData
+* `prefetch` - C:\Windows\Prefetch
+* `recent` - C:\Users\{username}\Recent
+* `temp` - C:\Temp
+* `.` - C:\Users\{username}
+* `calc` - Open Calculator
+* `control mouse` - Open mouse settings
+* `control` - Open Control Panel
+* `mblctr` - Windows Mobility Center
+* `msconfig`
+* `msinfo32` - System Information
+* `mspaint` - Paint
+* `notepad` - Notepad
+* `osk` - On Screen Keyboard
+* `perfmon` - Performance Monitor
+* `powercfg`- Power Configuration
+* `psr`
+* `regedit` - Registry Editor
+* `resmon` - Resource Monitor
+* `taskmgr`- Open Task Manager
+* `DeviceEject`
+* `winver` - Windows Version
+* `control /name Microsoft.System` - System Info (New)
+* `explorer.exe shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}` - System Info (old)
+* `explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}` - GOD Mode
+* `devmgmt.msc` - Device Management
+* `services.msc` - Open Services
+* `sysdm.cpl` - System Properties
+* `gpedit.msc` - Group policy editor
+* `lusrmgr.msc` - Local User Manager
+* `appwiz.cpl` - Uninstall Program
+* `control userpasswords`
+* `control userpasswords2`
+* `explorer shell:AppsFolder` - All the application icons
+* `shell:common startup` - startup system level
+* `shell:startup` - startup user level
+* `powercfg /s SCHEME_MIN` `SCHEME_MAX` `SCHEME_BALANCED` - Battery/Power
+* `ms-settings:batterysaver` - Battery Power Savings Settings
+
 
 # Uninstall using Command Promt
 * Open cmd with Admin rights
@@ -110,129 +173,8 @@ del /A:r /A:s /A:h /S /F /P
 
 ---
 ### Icons
-`System32\SHELL32.dll`
-
-`System32\imageres.dll`
-
----
-
-# SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
+* `System32\SHELL32.dll`
+* `System32\imageres.dll`
 
 ---
-# RUN Commands
 
-https://ss64.com/nt/shell.html
-
-`%ALLUSERSPROFILE%` - C:\ProgramData
-
-`%APPDATA%` - C:\Users\{username}\AppData\Roaming
-
-`%COMMONPROGRAMFILES%` - C:\Program Files\Common Files
-
-`%COMMONPROGRAMFILES(x86)%` - C:\Program Files (x86)\Common Files
-
-`%COMSPEC%` - C:\Windows\System32\cmd.exe
-
-`%HOMEDRIVE%` - C:
-
-`%HOMEPATH%` - C:\Users\{username}
-
-`%LOCALAPPDATA%` - C:\Users\{username}\AppData\Local
-
-`%localappdata%` C:\Users{username}\AppData\Local
-
-`%PROGRAMDATA%` - C:\ProgramData
-
-`%PROGRAMFILES%` - C:\Program Files
-
-`%PROGRAMFILES(X86)%` - C:\Program Files (x86) (only in 64-bit version)
-
-`%PUBLIC%` - C:\Users\Public
-
-`%SystemDrive%` - C:
-
-`%SystemRoot%` - C:\Windows
-
-`%TEMP%` - C:\Users\{username}\AppData\Local\Temp
-
-`%TMP%` - C:\Users\{username}\AppData\Local\Temp
-
-`%USERPROFILE%` - C:\Users\{username}
-
-`%WINDIR%` - C:\Windows
-
-`appdata` - C:\Users{username}\AppData
-
-`prefetch` - C:\Windows\Prefetch
-
-`recent` - C:\Users\{username}\Recent
-
-`temp` - C:\Temp
-
-`.` - C:\Users\{username}
-
-`calc` - Open Calculator
-
-`control mouse` - Open mouse settings
-
-`control` - Open Control Panel
-
-`mblctr` - Windows Mobility Center
-
-`msconfig`
-
-`msinfo32` - System Information
-
-`mspaint` - Paint
-
-`notepad` - Notepad
-
-`osk` - On Screen Keyboard
-
-`perfmon` - Performance Monitor
-
-`powercfg`- Power Configuration
-
-`psr`
-
-`regedit` - Registry Editor
-
-`resmon` - Resource Monitor
-
-`taskmgr`- Open Task Manager
-
-`DeviceEject`
-
-`winver` - Windows Version
-
-`control /name Microsoft.System` - System Info (New)
-
-`explorer.exe shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}` - System Info (old)
-
-`explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}` - GOD Mode
-
-`devmgmt.msc` - Device Management
-
-`services.msc` - Open Services
-
-`sysdm.cpl` - System Properties
-
-`gpedit.msc` - Group policy editor
-
-`lusrmgr.msc` - Local User Manager
-
-`appwiz.cpl` - Uninstall Program
-
-`control userpasswords`
-
-`control userpasswords2`
-
-`explorer shell:AppsFolder` - All the application icons
-
-`shell:common startup` - startup system level
-
-`shell:startup` - startup user level
-
-`powercfg /s SCHEME_MIN` `SCHEME_MAX` `SCHEME_BALANCED` - Battery/Power
-
-`ms-settings:batterysaver` - Battery Power Savings Settings
