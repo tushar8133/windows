@@ -247,5 +247,3 @@
 | SHELL:::{F874310E-B6B7-47DC-BC84-B9E6B38F5903} | THE HOME FOLDER IN FILE EXPLORER                        |
 
 
-https://tableconvert.com
-
