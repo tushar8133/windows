@@ -69,6 +69,10 @@
 * `shell:startup` - startup user level
 * `powercfg /s SCHEME_MIN` `SCHEME_MAX` `SCHEME_BALANCED` - Battery/Power
 * `ms-settings:batterysaver` - Battery Power Savings Settings
+* %appdata%\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\StartMenu\
+* %appdata%\Roaming\Microsoft\Windows\Network Shortcuts\
+* %appdata%\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
 
 
 # Uninstall using Command Promt
