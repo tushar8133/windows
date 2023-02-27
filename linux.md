@@ -85,6 +85,45 @@
 ## Boot Manager
 - rEFInd (UEFI)
 
+## Hotkeys
+- sxhkd
+
+## Start Menu
+- rofi
+
+## Top bar for window manager
+- polybar
+
+## Display opacity
+- picom
+
+## Backgrounds
+- nitrogen
+
+## Graphics, Games, FPS
+- MongoHud
+
+## URL
+- ocs
+
+## Resolution
+- arandr
+
+## Browser
+- firefox
+
+## OS Info
+- neofetch
+
+## Fonts
+- fontawesome-fonts
+- fontawesome-fonts-web
+
+## Unknown
+- lxpolkit
+- Xcfgs
+- lxappearacne
+
 # ??
 - GTK+
 - QT
@@ -98,7 +137,6 @@
     - Arch
 - Debian
     - Ubuntu
-
 
 # COMMANDS
 
