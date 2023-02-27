@@ -1,6 +1,14 @@
-## Mac OS Commands [(MACOS.md)](macos.md)
 
-## SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
+# Platforms
+- ### Mac OS Commands [(MACOS.md)](macos.md)
+- ### Linux [(linux.md)](linux.md)
+- ### Android [(android.md)](android.md)
+- ### Arduino [(arduino.md)](arduino.md)
+
+
+# Windows
+
+### SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
 
 ## RUN Commands [(ss64.com)](https://ss64.com/nt/shell.html)
 
