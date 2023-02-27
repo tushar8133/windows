@@ -138,7 +138,24 @@
 - Debian
     - Ubuntu
 
-# COMMANDS
+# System Commands
+```
+sudo dnf update
+sudo dnf install git sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit ocs fonts Xcfgs mongohud vim lxappearacne
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+reboot
+```
+```
+/etc/sddm.conf >>
+Autologin
+Session=bspwm
+User=titus
+
+/etc/sddm/Xsetup >>
+```
+
+# Utility Commands
 
 * tail -n 100 /var/log/mail.log | more
 * cat /var/log/mail.log
