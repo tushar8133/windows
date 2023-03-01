@@ -42,6 +42,7 @@
 ## Terminal
 - Kitty
 - rxvt-unicode
+- terminator
 
 ## Shell: Command Line Interpreters
 - bash
@@ -51,9 +52,13 @@
 ## Editor
 - vi
 - vim
-- NeoVim
-- Atom
+- neovim
+- atom
 - dconf-editor
+- nano
+- code
+- vscodium
+- gedit
 
 ## Bootloader
 - GRUB
@@ -238,7 +243,25 @@ Now in terminal, do `xstart` command and it will start the related program
 
 `ls -a`
 
+## Remove LoginManager and install your WM
+
+[Youtube link](https://www.youtube.com/watch?v=ut72fRROT30)
+
+Install `dwm` and `xinit` on top on existing WM, Now if you open DWM, by just typing `dwm` from terminal, but you will get this error saying "Another WM is already running", so you need to kill your WM. You can do it by pressing `ctrl + alt + backspace` or `ctrl + alt + F1` to get to TTY screen, then enter credentials and open `~/.xinitrc` file or create it if not present. Then write these below lines -
+
+```
+exec dwm &
+xrdb ~/.Xresources &
+exec slstatus
+xrandr -s 1920x1080 #not the correct way, should be done using X something...
+```
+
+install `xinit` (already done in previous steps) and run `startx` to start the configured WM, instead of LoginManager running your WM
+
+
 ## 
+
+
 
 
 
