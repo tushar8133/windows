@@ -56,17 +56,27 @@
 - gdm (gnome)
 - lxdm (lxde)
 - LightDM (All)
+- dwm
 
 ## Window Manager
 - bspwm
 - i3
 
+## Start Menu
+- rofi
+- dmenu
+
+## Top bar for window manager
+- polybar
+
 ## File Browser
 - Thunar
 - Dolphin
+- pcmanfm
 
 ## Terminal
 - Kitty
+- rxvt-unicode
 
 ## Shell: Command Line Interpreters
 - bash
@@ -87,12 +97,6 @@
 
 ## Hotkeys
 - sxhkd
-
-## Start Menu
-- rofi
-
-## Top bar for window manager
-- polybar
 
 ## Display opacity
 - picom
@@ -118,6 +122,7 @@
 ## Fonts
 - fontawesome-fonts
 - fontawesome-fonts-web
+- ttf-incosolata
 
 ## Unknown
 - lxpolkit
@@ -154,6 +159,139 @@ User=titus
 
 /etc/sddm/Xsetup >>
 ```
+## USERS
+- `passwd [tushar]`
+- `adduser tushar`
+- `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
+
+## Remove SUDO permissions
+
+Goto file `/etc/sudoers.d`
+
+Uncomment these lines
+
+- `root ALL=(ALL) ALL`
+- `%wheel ALL=(ALL) ALL`
+- `%wheel ALL=(ALL) ALL NOPASSWD: ALL`
+- `%sudo ALL=(ALL) ALL`
+
+Add this line
+- `Defaults !tty_tickets`
+
+## SHUTDOWN and REBOOT
+```
+shutdown -r now
+poweroff
+reboot
+```
+
+## Install/Uninstall
+- Fedora
+    - `sudo fnd install neofetch`
+    - `sudo fnd remove neofetch`
+- Arch
+    - pacman -S neofetch
+
+- Debian
+    - sudo apt-get install neofetch
+
+
+## VIM commond commands
+```
+vim or vi
+neovim?
+:wq! (write, quit, force)
+```
+
+## Graphical
+
+login as a user and create a file `~/.xinitrc`
+
+open it and write
+
+`exec dwm` for dwm
+
+or
+
+`exec xfce4-session` for xfce
+
+Now in terminal, do `xstart` command and it will start the related program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 
 # Utility Commands
 
