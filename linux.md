@@ -1,7 +1,128 @@
 # Linux
 
-## Distros
+## Desktop Environments -  (Lightweight in descending order, not correct)
+- UNITY
+- GNOME
+- Cinnamon
+- MATE
+- KDE
+- XFCE
+- LXDE
 
+## Display Render
+- Wayland
+- Xorg / X11
+
+## Desktop Manager (Login)
+- sddm (qt5)(KDE)
+- gdm (gnome)
+- lxdm (lxde)
+- LightDM (All)
+
+## Window Manager
+- bspwm
+- i3
+- dwm
+- iwm
+- icewm
+
+## Start Menu
+- rofi
+- dmenu
+
+## Bar
+- polybar
+- slstatus
+
+## File Browser
+- Thunar
+- Dolphin
+- pcmanfm
+
+## Terminal
+- Kitty
+- rxvt-unicode
+
+## Shell: Command Line Interpreters
+- bash
+- tcsh
+- zsh
+
+## Editor
+- vi
+- vim
+- NeoVim
+- Atom
+- dconf-editor
+
+## Bootloader
+- GRUB
+
+## Boot Manager
+- rEFInd (UEFI)
+
+## Hotkeys
+- sxhkd
+
+## Display opacity
+- picom
+
+## Backgrounds
+- nitrogen
+
+## Graphics, Games, FPS
+- MongoHud
+
+## URL
+- ocs
+
+## Resolution
+- arandr
+- xrandr
+
+## Browser
+- firefox
+
+## OS Info
+- neofetch
+
+## process viewer
+htop
+
+## Fonts
+- fontawesome-fonts
+- fontawesome-fonts-web
+- ttf-incosolata
+
+## Websites
+- https://suckless.org
+- https://distrowatch.com
+- https://www.reddit.com/r/unixporn
+
+## Unknown
+- lxpolkit
+- Xcfgs
+- lxappearacne
+
+# ??
+- GTK+
+- QT
+
+## Installers
+- snap
+- flatpack
+
+## Packages Types
+- RPM Based
+    - OpenSuse
+    - Fedora
+        - RHEL
+- Pacman
+    - Arch
+- Debian
+    - Ubuntu
+
+## Distros
 - Puppy Linux
 - Gentoo
 - Tiny Core
@@ -38,111 +159,6 @@
         - Elementary
 
 
-## Desktop Environments -  (Lightweight in descending order, not correct)
-- UNITY
-- GNOME
-- Cinnamon
-- MATE
-- KDE
-- XFCE
-- LXDE
-
-## Display Render
-- Wayland
-- Xorg / X11
-
-## Desktop Manager (Login)
-- sddm (qt5)(KDE)
-- gdm (gnome)
-- lxdm (lxde)
-- LightDM (All)
-- dwm
-
-## Window Manager
-- bspwm
-- i3
-
-## Start Menu
-- rofi
-- dmenu
-
-## Top bar for window manager
-- polybar
-
-## File Browser
-- Thunar
-- Dolphin
-- pcmanfm
-
-## Terminal
-- Kitty
-- rxvt-unicode
-
-## Shell: Command Line Interpreters
-- bash
-- tcsh
-- zsh
-
-## Editor
-- Vim
-- NeoVim
-- Atom
-- dconf-editor
-
-## Bootloader
-- GRUB
-
-## Boot Manager
-- rEFInd (UEFI)
-
-## Hotkeys
-- sxhkd
-
-## Display opacity
-- picom
-
-## Backgrounds
-- nitrogen
-
-## Graphics, Games, FPS
-- MongoHud
-
-## URL
-- ocs
-
-## Resolution
-- arandr
-
-## Browser
-- firefox
-
-## OS Info
-- neofetch
-
-## Fonts
-- fontawesome-fonts
-- fontawesome-fonts-web
-- ttf-incosolata
-
-## Unknown
-- lxpolkit
-- Xcfgs
-- lxappearacne
-
-# ??
-- GTK+
-- QT
-
-## Packages Types
-- RPM Based
-    - OpenSuse
-    - Fedora
-        - RHEL
-- Pacman
-    - Arch
-- Debian
-    - Ubuntu
-
 # System Commands
 ```
 sudo dnf update
@@ -163,6 +179,10 @@ User=titus
 - `passwd [tushar]`
 - `adduser tushar`
 - `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
+
+## Switch to ROOT user
+
+`sudo su`
 
 ## Remove SUDO permissions
 
@@ -190,18 +210,15 @@ reboot
     - `sudo fnd install neofetch`
     - `sudo fnd remove neofetch`
 - Arch
-    - pacman -S neofetch
+    - `pacman -S neofetch`
 
 - Debian
-    - sudo apt-get install neofetch
+    - `sudo apt-get install neofetch`
 
 
 ## VIM commond commands
-```
-vim or vi
-neovim?
-:wq! (write, quit, force)
-```
+
+`:wq!` (write, quit, force)
 
 ## Graphical
 
@@ -217,7 +234,11 @@ or
 
 Now in terminal, do `xstart` command and it will start the related program
 
+## List Hidden Files/Folders
 
+`ls -a`
+
+## 
 
 
 
