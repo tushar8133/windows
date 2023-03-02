@@ -13,7 +13,7 @@
 - Wayland
 - Xorg / X11
 
-## Desktop Manager (Login)
+## Display Manager / Login Manager
 - sddm (qt5)(KDE)
 - gdm (gnome)
 - lxdm (lxde)
@@ -230,6 +230,8 @@ reboot
 - `rpm -qa` return all
 - `dnf autoremove` remove orphan packages
 - `pkcon search name neofetch` search packages
+
+You can use these in combination with `ls -a | grep xyz`
 
 ## VIM commond commands
 
