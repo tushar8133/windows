@@ -185,9 +185,11 @@ User=titus
 - `adduser tushar`
 - `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
 
-## Switch to ROOT user
+## Switch Accounts
 
-`sudo su`
+- `sudo su` switch to ROOT user
+- `su tushar` switch back to normal user
+- `su - tushar` switch back to normal user with fresh state
 
 ## Remove SUDO permissions
 
@@ -220,6 +222,14 @@ reboot
 - Debian
     - `sudo apt-get install neofetch`
 
+## Check install packages
+
+- `dnf history userinstalled` return only user installed
+- `dnf list installed` return all
+- `yum list installed` return all
+- `rpm -qa` return all
+- `dnf autoremove` remove orphan packages
+- `pkcon search name neofetch` search packages
 
 ## VIM commond commands
 
