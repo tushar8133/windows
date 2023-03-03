@@ -1,6 +1,6 @@
 # Linux
 
-## Desktop Environments -  (Lightweight in descending order, not correct)
+## Desktop Environments
 - UNITY
 - GNOME
 - Cinnamon
@@ -99,10 +99,10 @@
 - htop
 
 ## Fonts
-- [nerdfonts.com](https://www.nerdfonts.com)
 - fontawesome-fonts
 - fontawesome-fonts-web
 - ttf-incosolata
+- https://www.nerdfonts.com
 
 ## Theme
 - Nordic
@@ -216,8 +216,8 @@ User=titus
 - `adduser tushar`
 - `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
 
-## Switch Accounts
-
+## Switch User
+- `su sudo` switch to ROOT user
 - `sudo su` switch to ROOT user
 - `su tushar` switch back to normal user
 - `su - tushar` switch back to normal user with fresh state
@@ -236,12 +236,13 @@ Uncomment these lines
 Add this line
 - `Defaults !tty_tickets`
 
-## SHUTDOWN and REBOOT
-```
-shutdown -r now
-poweroff
-reboot
-```
+## SHUTDOWN
+- `poweroff`
+- `shutdown now`
+
+## REBOOT
+- `reboot`
+- `shutdown -r now`
 
 ## Install/Uninstall
 - Fedora
@@ -251,7 +252,7 @@ reboot
     - `pacman -S neofetch`
 
 - Debian
-    - `sudo apt-get install neofetch`
+    - `sudo apt install neofetch`
 
 ## Check install packages
 
@@ -261,12 +262,6 @@ reboot
 - `rpm -qa` return all
 - `dnf autoremove` remove orphan packages
 - `pkcon search name neofetch` search packages
-
-You can use these in combination with `ls -a | grep xyz`
-
-## VIM commond commands
-
-`:wq!` (write, quit, force)
 
 ## Graphical
 
@@ -281,10 +276,6 @@ or
 `exec xfce4-session` for xfce
 
 Now in terminal, do `xstart` command and it will start the related program
-
-## List Hidden Files/Folders
-
-`ls -a`
 
 ## Remove LoginManager and install your WM
 
@@ -357,6 +348,5 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 * `grep -r "my-regex-here" ./dir1 ./dir2 ./dir3` recursive search inside multiple directories
 * `grep -r "my-regex-here" ./dir1 > output.txt` print result in separate file
 
-It can be combined with other commands, like -
-`ls | grep "html"`
+It can be combined with other commands, like `ls | grep "html"`
 
