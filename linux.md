@@ -297,10 +297,12 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `alias` | |
 | `chmod` | |
 | `sort -k2 test.txt` | |
-| `echo hahaha` | text output in console |
-| `echo hahaha > file.txt` | text output in file |
-| `cat A.txt` | text output in console from a file |
-| `cat > X.txt` `↵` some random text `^d` | write some text on terminal and create a file |
+| `echo hahaha` | display text in console, from a console |
+| `echo hahaha > file.txt` | write text to a file |
+| `cat A.txt` | display text in console, from a file |
+| `cat A.txt B.txt`  | combine text from multiple file in console |
+| `cat A.txt B.txt > C.txt`  | combine text from multiple file and write to a file |
+| `cat > A.txt` `↵` some random text `^d` | write some text on terminal and create a file |
 | `find -name test.txt` | for finding files |
 | `find / -name test.txt` | for finding files and folders |
 | `diff test1.txt test2.txt` | |
