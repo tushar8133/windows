@@ -40,9 +40,10 @@
 - pcmanfm
 
 ## Terminal
-- Kitty
+- kitty
 - rxvt-unicode
 - terminator
+- konsole
 
 ## Shell: Command Line Interpreters
 - bash
@@ -74,6 +75,7 @@
 
 ## Backgrounds
 - nitrogen
+- feh
 
 ## Graphics, Games, FPS
 - MongoHud
@@ -87,17 +89,29 @@
 
 ## Browser
 - firefox
+- brave
+- chromium
 
 ## OS Info
 - neofetch
 
 ## process viewer
-htop
+- htop
 
 ## Fonts
+- [nerdfonts.com](https://www.nerdfonts.com)
 - fontawesome-fonts
 - fontawesome-fonts-web
 - ttf-incosolata
+
+## Theme
+- Nordic
+
+## Screenshot
+- flameshot
+
+## Wifi Drivers
+- sudo dnf install NetworkManager-wifi
 
 ## Websites
 - https://suckless.org
@@ -118,14 +132,31 @@ htop
 - flatpack
 
 ## Packages Types
-- RPM Based
-    - OpenSuse
-    - Fedora
-        - RHEL
-- Pacman
-    - Arch
 - Debian
-    - Ubuntu
+    - `apt-get` `apt-cache` old
+    - `apt` new
+    - `dpkg -i package.deb` Package Manger & package
+- Fedora/Suse
+    - `yum` older
+    - `dnf` new
+    - `rpm -i package.rpm` Package Manger & package
+- Arch
+    - `pacman`
+    - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package
+    - AUR
+        - Arch User Repository
+        ```
+        git clone https://aur.archlinux.org/brave.git
+        cd brave/
+        ```
+        - Package Compiler
+        ```
+        makepkg -si
+        ```
+        - Package Installer
+        ```
+        yay -S brave
+        ```
 
 ## Distros
 - Puppy Linux
@@ -380,6 +411,9 @@ can be combined with different commands like
 * curl
 * ln
 * ls -ltr
+* ls -a
+* ls -l
+* ll
 * alias
 * chmod
 * sort -k2 test.txt
@@ -404,6 +438,7 @@ can be combined with different commands like
 * clear
 * locate -i *red*house**city* === search in whole OS
 * pwd === present working directory
+* whoami === username
 
 ---
 
