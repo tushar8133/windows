@@ -291,13 +291,16 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 
 | COMMANDS | DESCRIPTIN |
 |-|-|
-| `man` | manual |
+| `man` | read manual |
 | `curl` | |
 | `ln` | |
 | `alias` | |
 | `chmod` | |
 | `sort -k2 test.txt` | |
-| `echo` | |
+| `echo hahaha` | text output in console |
+| `echo hahaha > file.txt` | text output in file |
+| `cat A.txt` | text output in console from a file |
+| `cat > X.txt` `↵` some random text `^d` | write some text on terminal and create a file |
 | `find -name test.txt` | for finding files |
 | `find / -name test.txt` | for finding files and folders |
 | `diff test1.txt test2.txt` | |
@@ -318,7 +321,6 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `locate -i redhouse**city*` | search in whole OS |
 | `pwd` | present working directory |
 | `whoami` | username |
-| `cat` | |
 | `clear` | clear console |
 | `\| more`| |
 | `dmesg`| for kernel logs |
