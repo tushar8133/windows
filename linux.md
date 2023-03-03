@@ -135,28 +135,18 @@
 - Debian
     - `apt-get` `apt-cache` old
     - `apt` new
-    - `dpkg -i package.deb` Package Manger & package
+    - `dpkg -i package.deb` Package and Installer
 - Fedora/Suse
     - `yum` older
     - `dnf` new
-    - `rpm -i package.rpm` Package Manger & package
+    - `rpm -i package.rpm` Package and Installer
 - Arch
     - `pacman`
     - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package
     - AUR
-        - Arch User Repository
-        ```
-        git clone https://aur.archlinux.org/brave.git
-        cd brave/
-        ```
-        - Package Compiler
-        ```
-        makepkg -si
-        ```
-        - Package Installer
-        ```
-        yay -S brave
-        ```
+        -  `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/` Arch User Repository
+        - `makepkg -si` Package Compiler
+        - `yay -S brave `Package Installer
 
 ## Distros
 - Puppy Linux
