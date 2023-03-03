@@ -324,8 +324,11 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `pwd` | present working directory |
 | `whoami` | username |
 | `clear` | clear console |
-| `\| more`| |
 | `dmesg`| for kernel logs |
+| `more` | page by page increment order |
+| `less` | page by page decrement order |
+| ` some_command_output \| more`| combine with other commands also |
+
 
 
 ## grep
