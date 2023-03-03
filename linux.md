@@ -134,7 +134,7 @@
 ## Packages Types
 - Debian
     - `apt-get` `apt-cache` old
-    - `apt` new
+    - `apt` new (combined old ones)
     - `dpkg -i package.deb` Package and Installer
 - Fedora/Suse
     - `yum` older
@@ -142,11 +142,11 @@
     - `rpm -i package.rpm` Package and Installer
 - Arch
     - `pacman`
-    - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package
+    - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package (usually not found)
     - AUR
         -  `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/` Arch User Repository
         - `makepkg -si` Package Compiler
-        - `yay -S brave `Package Installer
+        - `yay -S brave` Package Installer
 
 ## Distros
 - Puppy Linux
