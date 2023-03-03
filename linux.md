@@ -305,95 +305,51 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 ## 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 
-# Utility Commands
+| COMMANDS | DESCRIPTIN |
+|-|-|
+| `man` | manual |
+| `curl` | |
+| `ln` | |
+| `alias` | |
+| `chmod` | |
+| `sort -k2 test.txt` | |
+| `echo` | |
+| `find -name test.txt` | for finding files |
+| `find / -name test.txt` | for finding files and folders |
+| `diff test1.txt test2.txt` | |
+| `uniq test.txt` | to find only unique lines |
+| `history` | |
+| `touch hello.txt` | create a file |
+| `# ls` | list command |
+| `ls -ltr` | |
+| `ls -a` | list folders starting with . |
+| `ls -l` | show list in detail |
+| `ls -al` | `-a` & `-l` combined || cd | `cd myfolder` | Change Directory |
+| `ll` | similar to `ls -l` || mv | `mv ~/file.txt ~/folder` | Move Files |
+| `mv file1.txt file2.txt` | Rename Files |
+| `cp file1.txt ~/folder` | copy files |
+| `mkdir myfolder` | make directory |
+| `rmdir folder1` | remove directory and files within |
+| `rm test.txt` | remove files |
+| `locate -i redhouse**city*` | search in whole OS |
+| `pwd` | present working directory |
+| `whoami` | username |
+| `cat` | |
+| `clear` | clear console |
+| `\| more`| |
+| `dmesg`| for kernel logs |
 
-* tail -n 100 /var/log/mail.log | more
-* cat /var/log/mail.log
-* less /var/log/mail.log === press [/] then enter your search and press [enter]
-* dmesg (for kernel logs)
 
 ## grep
 `grep -in "my-regex-here" filename.txt`
 
-i=IgnoreCase  
-n=LineNumber  
-r=Recursive  
-l=ListFilenamesOnly  
+`i` IgnoreCase  
+`n` LineNumber  
+`r` Recursive  
+`l` ListFilenamesOnly  
 
 * `grep "my-regex-here" filename.txt` single file
 * `grep "my-regex-here" *` all files in current directory
@@ -401,48 +357,6 @@ l=ListFilenamesOnly
 * `grep -r "my-regex-here" ./dir1 ./dir2 ./dir3` recursive search inside multiple directories
 * `grep -r "my-regex-here" ./dir1 > output.txt` print result in separate file
 
-can be combined with different commands like
+It can be combined with other commands, like -
 `ls | grep "html"`
 
-
----
-
-* man (to find any command)
-* curl
-* ln
-* ls -ltr
-* ls -a
-* ls -l
-* ll
-* alias
-* chmod
-* sort -k2 test.txt
-* touch hello.txt
-* echo
-* find -name test.txt === for finding files
-* find / -name test.txt === for finding files and folders
-* diff test1.txt test2.txt
-* uniq test.txt === to find only unique lines
-* history
-
----
-
-* cd === change directory
-* mv === move files
-* cp === copy files
-* ls === list command
-* mkdir === make directory
-* rmdir folder1 === remove directory and files within
-* rm test.txt === remove files
-* touch === create files
-* clear
-* locate -i *red*house**city* === search in whole OS
-* pwd === present working directory
-* whoami === username
-
----
-
-* `[q]` to quit.
-* `[/]` “text” and [enter] to search a pattern.
-* `[G]` to go to the end of the file.
-* `[gg]` to go to begining of the file.
