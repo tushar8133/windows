@@ -83,7 +83,7 @@
 ## URL
 - ocs
 
-## Resolution
+## Screen Resolution
 - arandr
 - xrandr
 
@@ -95,7 +95,7 @@
 ## OS Info
 - neofetch
 
-## process viewer
+## Process Viewer
 - htop
 
 ## Fonts
@@ -144,7 +144,7 @@
     - `pacman`
     - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package (usually not found)
     - AUR
-        -  `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/` Arch User Repository
+        - `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/` Arch User Repository
         - `makepkg -si` Package Compiler
         - `yay -S brave` Package Installer
 
@@ -168,7 +168,7 @@
     - Manjaro
     - Garuda
 - Debian
-    - MX Linux (Stable), antiX
+    - MX Linux (Stable)
     - Deepin (Stable)
     - antiX
     - Kali
@@ -201,7 +201,7 @@ User=titus
 
 /etc/sddm/Xsetup >>
 ```
-## USERS
+## Users
 - `passwd [tushar]`
 - `adduser tushar`
 - `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
@@ -226,11 +226,11 @@ Uncomment these lines
 Add this line
 - `Defaults !tty_tickets`
 
-## SHUTDOWN
+## Shutdown
 - `poweroff`
 - `shutdown now`
 
-## REBOOT
+## Reboot
 - `reboot`
 - `shutdown -r now`
 
@@ -244,7 +244,7 @@ Add this line
 - Debian
     - `sudo apt install neofetch`
 
-## Check install packages
+## Check Installed Packages
 
 - `dnf history userinstalled` return only user installed
 - `dnf list installed` return all
@@ -331,7 +331,7 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 
 
 
-## grep
+## `grep`
 `grep -in "my-regex-here" filename.txt`
 
 `i` IgnoreCase  
