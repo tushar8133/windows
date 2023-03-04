@@ -111,7 +111,7 @@
 - flameshot
 
 ## Wifi Drivers
-- sudo dnf install NetworkManager-wifi
+- `sudo dnf install NetworkManager-wifi`
 
 ## Websites
 - https://suckless.org
@@ -327,7 +327,7 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `dmesg`| for kernel logs |
 | `more` | page by page increment order |
 | `less` | page by page decrement order |
-| ` some_command_output \| more`| combine with other commands also |
+| `some_command_output \| more`| combine with other commands also |
 
 
 
