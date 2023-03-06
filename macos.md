@@ -24,10 +24,11 @@
 | hover on maximize button | split screen |
 | right click on speaker icon next to search bar | picture in picture |
 | bluetooth off on lid down | https://github.com/alb12-la/KBOS |
-| startup hidden items location | /Users/tusharkumar/Library/LaunchAgents/ |
+| startup hidden items location for Users | `/Users/tusharkumar/Library/LaunchAgents/` |
+| startup hidden items location for System | `/Library/LaunchDaemons`  |
 | copy full path | right click and open context menu, now press OPTION key |
 | Youtube Downloader | https://github.com/section83/MacYTDL |
-| open pkg file | pkgutil --expand ./filename ./outputfolder |
+| open pkg file | `pkgutil --expand ./filename ./outputfolder` |
 
 ## Remove Leftover "Context Menu" of Uninstalled Apps
 * Keyboard > Shortcuts > Services
