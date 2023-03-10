@@ -1,5 +1,23 @@
 # Linux
 
+## Bootloader
+- GRUB
+
+## Boot Manager
+- rEFInd (UEFI)
+
+## Display Render / Display Server
+- Xorg / X11
+    - `sudo pacman -S xorg-server xorg-apps xorg-xinit xclip xdotool xterm`
+- Wayland
+
+## Graphics Driver (Optional)
+- NVidia
+- Intel
+- AMD/ATI
+- `pacman -Ss xf86-video` Search Drivers
+- `sudo pacman -S spice-vdagent xf86-video-qxl` SPICE Tools
+
 ## Desktop Environments
 - UNITY
 - GNOME
@@ -8,10 +26,6 @@
 - KDE
 - XFCE
 - LXDE
-
-## Display Render
-- Wayland
-- Xorg / X11
 
 ## Display Manager / Login Manager
 - sddm (qt5)(KDE)
@@ -61,12 +75,6 @@
 - vscodium
 - gedit
 
-## Bootloader
-- GRUB
-
-## Boot Manager
-- rEFInd (UEFI)
-
 ## Hotkeys
 - sxhkd
 
@@ -113,10 +121,7 @@
 ## Wifi Drivers
 - `sudo dnf install NetworkManager-wifi`
 
-## Websites
-- https://suckless.org
-- https://distrowatch.com
-- https://www.reddit.com/r/unixporn
+
 
 ## Unknown
 - lxpolkit
@@ -126,10 +131,6 @@
 # ??
 - GTK+
 - QT
-
-## Installers
-- snap
-- flatpack
 
 ## Packages Types
 - Debian
@@ -143,10 +144,18 @@
 - Arch
     - `pacman`
     - `pacman -Qi package.pkg[.tar|.zst|.gz|.xz]` Alpm Package (usually not found)
-    - AUR
-        - `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/` Arch User Repository
+    - AUR (Arch User Repository)
+        - `git clone https://aur.archlinux.org/brave.git` **&** `cd brave/`
         - `makepkg -si` Package Compiler
         - `yay -S brave` Package Installer
+        - OR
+        - `git clone git://git.suckless.org/dwm` **&** `cd dwm`
+        - `pacman -Sy base-devel`
+        - `$ make`
+        - `# make install` or `make clean install`
+- Snap (Ubuntu, Manjaro)
+- Flatpack (Only graphics application)
+- AppImage
 
 ## Distros
 - Puppy Linux
@@ -163,7 +172,7 @@
 - Suse
     - SLES (Suse Linux Enterprise Server)
         - OpenSuse
-- ArchLinux
+- [ArchLinux](https://pkgbuild.com/~tpowa/archboot/iso/aarch64/latest)
     - EndeavourOS
     - Manjaro
     - Garuda
@@ -185,46 +194,42 @@
         - Elementary
 
 
-# System Commands
-```
-sudo dnf update
-sudo dnf install git sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit ocs fonts Xcfgs mongohud vim lxappearacne
-sudo systemctl enable sddm
-sudo systemctl set-default graphical.target
-reboot
-```
-```
-/etc/sddm.conf >>
-Autologin
-Session=bspwm
-User=titus
+# System Update
+- `sudo dnf update`
+- `sudo pacman -Syu`
 
-/etc/sddm/Xsetup >>
-```
-## Users
+## Add Users
+- `useradd -m -g users -G wheel,storage,power,video,audio tushar` (m) setup home directory, (g) add to group
 - `passwd [tushar]`
-- `adduser tushar`
-- `useradd -mg wheel tushar` (m) setup home directory, (g) add to group
 
 ## Switch User
-- `su sudo` switch to ROOT user
-- `sudo su` switch to ROOT user
-- `su tushar` switch back to normal user
-- `su - tushar` switch back to normal user with fresh state
+- `su` or `sudo su` switch to ROOT user
+- `su -` switch back to ROOT user with old history
+- `su tushar` switch back to normal user with fresh state
+- `su - tushar` switch back to normal user with old history
 
 ## Remove SUDO permissions
+- `pacman -S sudo` install sudo as a root user  
+   and write `visudo`  
+   or `EDITOR=nano visudo` to open with specific editor
+- `sudo vim /etc/sudoers`
+```shell
+# Uncomment these lines
+root ALL=(ALL) ALL
+%wheel ALL=(ALL) ALL
+%wheel ALL=(ALL) ALL NOPASSWD: ALL
+%sudo ALL=(ALL) ALL
+# Add this line
+Defaults !tty_tickets
+```
 
-Goto file `/etc/sudoers.d`
+## Pacman Stuff
+- `sudo nano /etc/pacman.conf`
+- `ParallelDownloads=5`
 
-Uncomment these lines
-
-- `root ALL=(ALL) ALL`
-- `%wheel ALL=(ALL) ALL`
-- `%wheel ALL=(ALL) ALL NOPASSWD: ALL`
-- `%sudo ALL=(ALL) ALL`
-
-Add this line
-- `Defaults !tty_tickets`
+## Create User Directories
+- `sudo pacman -Sy xdg-user-dirs`
+- `xdg-user-dirs-update`
 
 ## Shutdown
 - `poweroff`
@@ -245,7 +250,6 @@ Add this line
     - `sudo apt install neofetch`
 
 ## Check Installed Packages
-
 - `dnf history userinstalled` return only user installed
 - `dnf list installed` return all
 - `yum list installed` return all
@@ -253,19 +257,40 @@ Add this line
 - `dnf autoremove` remove orphan packages
 - `pkcon search name neofetch` search packages
 
-## Graphical
+## `.xinitrc`
 
-login as a user and create a file `~/.xinitrc`
+login as a NORMAL user
 
-open it and write
+`sudo nano /etc/X11/xinit/.xinitrc` global file
+
+`sudo nano ~/.xinitrc` local file
 
 `exec dwm` for dwm
 
-or
-
 `exec xfce4-session` for xfce
 
-Now in terminal, do `xstart` command and it will start the related program
+`startx` will start the Xorg server and run your configured apps 
+
+```
+sudo dnf update
+sudo dnf install git sddm bspwm sxhkd kitty rofi polybar picom thunar nitrogen lxpolkit ocs fonts Xcfgs mongohud vim lxappearacne
+```
+
+## `sddm`
+
+`sudo systemctl enable sddm`
+
+`sudo systemctl set-default graphical.target`
+
+`/etc/sddm.conf`
+
+```
+Autologin
+Session=bspwm
+User=titus
+```
+
+`/etc/sddm/Xsetup`
 
 ## Remove LoginManager and install your WM
 
@@ -277,13 +302,10 @@ Install `dwm` and `xinit` on top on existing WM, Now if you open DWM, by just ty
 exec dwm &
 xrdb ~/.Xresources &
 exec slstatus
-xrandr -s 1920x1080 #not the correct way, should be done using X something...
+xrandr -s 1920x1080 #not the correct way, should be done using startx command
 ```
 
 install `xinit` (already done in previous steps) and run `startx` to start the configured WM, instead of LoginManager running your WM
-
-
-## 
 
 
 ---
@@ -330,7 +352,6 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `some_command_output \| more`| combine with other commands also |
 
 
-
 ## `grep`
 `grep -in "my-regex-here" filename.txt`
 
@@ -347,3 +368,9 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 
 It can be combined with other commands, like `ls | grep "html"`
 
+# Websites
+- https://suckless.org
+- https://distrowatch.com
+- https://www.reddit.com/r/unixporn
+- https://github.com/3rfaan/dotfiles
+- https://github.com/daimaou92/install-arch-vmwarefusion-techpreview
