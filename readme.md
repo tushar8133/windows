@@ -1,11 +1,3 @@
-
-# Platforms
-- ### Mac OS Commands [(MACOS.md)](macos.md)
-- ### Linux [(linux.md)](linux.md)
-- ### Android [(android.md)](android.md)
-- ### Arduino [(arduino.md)](arduino.md)
-
-
 # Windows
 
 ### SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
