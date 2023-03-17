@@ -91,6 +91,9 @@
 * [UUP Dump](https://uupdump.net)
 * [RG-adguard](https://uup.rg-adguard.net)
 
+# `file.vbs` start hidden program
+- `CreateObject("Wscript.Shell").Run "program.exe", 0`
+
 
 # Windows Shortcuts
 
