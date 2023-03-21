@@ -80,3 +80,8 @@ sudo chflags noschg /etc/hosts
 - https://github.com/exelban/stats
 - https://github.com/section83/MacYTDL
 - https://github.com/alb12-la/KBOS
+- https://github.com/peazip/PeaZip
+- https://github.com/TheTorProject/gettorbrowser
+- https://github.com/ganeshrvel/openmtp
+- https://github.com/HandBrake/HandBrake
+
