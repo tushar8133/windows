@@ -15,8 +15,6 @@
 | `command` + `tab, Q` | quit application |
 | `command` + `spacebar` | spotlight (screensharing, currency/temerature conversion, calc, flights) |
 | `command` + `shift` + `.` | show hidden files |
-| `command` + `c` | copy |
-| `command` + `option` + `v` | move |
 | `shift` + `command` + `g` | Goto folder (~ user folder) |
 | `ctrl` + `command` + `space` | emoticons |
 | `command` + `option` + `shift` + `esc` | quit apps one by one |
@@ -73,6 +71,9 @@ sudo chflags schg /etc/hosts
 sudo chflags nouchg /etc/hosts
 sudo chflags noschg /etc/hosts
 ```
+
+# Caffeinate
+`caffeinate -dimsu`
 
 # Softwares
 - https://github.com/MacPass/MacPass
