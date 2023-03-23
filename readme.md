@@ -84,6 +84,7 @@
 - WindowGrid, WindowBlinds
 - Rufus, Ventoy, Etcher
 - WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- [Mouse Highlight](https://catnip5.itch.io/mouse-highlight)
 - [Sordum](https://www.sordum.org/downloads)
   - [disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
   - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
