@@ -2,6 +2,8 @@
 
 ### SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
 
+### BATCH FILE [(batch.md)](batch.md)
+
 ## RUN Commands [(ss64.com)](https://ss64.com/nt/shell.html)
 
 * `%ALLUSERSPROFILE%` - C:\ProgramData
@@ -78,11 +80,14 @@
 * Done
 
 # Softwares
-* Sordum - Disable Update Services
-* WinDirStat, SpaceSniffer
-* WindowGrid, WindowBlinds
-* Rufus, Ventoy, Etcher
-* WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- WinDirStat, SpaceSniffer
+- WindowGrid, WindowBlinds
+- Rufus, Ventoy, Etcher
+- WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- [Sordum](https://www.sordum.org/downloads)
+  - [disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
+  - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
+  - [disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 
 # Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
