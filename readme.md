@@ -90,12 +90,13 @@
   - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
   - [disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 
-# Download links
+# ISO Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
 * [TechBench by WZT](https://tb.rg-adguard.net/public.php)
 * [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 * [UUP Dump](https://uupdump.net)
 * [RG-adguard](https://uup.rg-adguard.net)
+* [LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)
 
 # `file.vbs` start hidden program
 - `CreateObject("Wscript.Shell").Run "program.exe", 0`
