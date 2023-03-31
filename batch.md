@@ -83,11 +83,18 @@ set /p "var=[%var%] "
 ```
 
 # %1
-- `echo %1` with quotes
-- `echo %~1` strips quotes
-- `echo %*` all params
-- `echo %~x1` file extensions
-- `echo %~f1` may be folder??
+- `%*` all params
+- `%1` first param
+- `%~1` expands %1 removing any surrounding quotes (")
+- `%~f1` expands %1 to a fully qualified path name
+- `%~d1` expands %1 to a drive letter only
+- `%~p1` expands %1 to a path only
+- `%~n1` expands %1 to a file name only
+- `%~x1` expands %1 to a file extension only
+- `%~s1` expanded path contains short names only
+- `%~a1` expands %1 to file attributes
+- `%~t1` expands %1 to date/time of file
+- `%~z1` expands %1 to size of file
 
 # ECHO
 - `@echo off`
