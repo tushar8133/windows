@@ -25,6 +25,7 @@
 | startup hidden items location for System | `/Library/LaunchDaemons`  |
 | copy full path | right click and open context menu, now press OPTION key |
 | open pkg file | `pkgutil --expand ./filename ./outputfolder` |
+| open finder from terminal | `cd yourpath` then `open .`|
 
 ## Remove Leftover "Context Menu" of Uninstalled Apps
 * Keyboard > Shortcuts > Services
