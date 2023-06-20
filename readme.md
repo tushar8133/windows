@@ -152,6 +152,11 @@ dir /b /s
 /S     include all subfolders.
 /B     Bare format (no heading, file sizes or summary).
 ```
+
+Find all files with particular extension
+
+`dir /s /b *routing.module.ts`
+
 ---
 ### ATTRIB
 ```
