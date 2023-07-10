@@ -320,11 +320,13 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `chmod` | |
 | `sort -k2 test.txt` | |
 | `echo hahaha` | display text in console, from a console |
-| `echo hahaha > file.txt` | write text to a file |
+| `echo hahaha > file.txt` | overwrite text to a file |
+| `echo hahaha >> file.txt` | append the text to the file |
 | `cat A.txt` | display text in console, from a file |
 | `cat A.txt B.txt`  | combine text from multiple file in console |
 | `cat A.txt B.txt > C.txt`  | combine text from multiple file and write to a file |
-| `cat > A.txt` <kbd>↵</kbd> some random text <kbd>^</kbd>+<kbd>d</kbd> | write some text on terminal and create a file |
+| `cat > A.txt` <kbd>↵</kbd> hahaha <kbd>^</kbd>+<kbd>d</kbd> | write some text on terminal and create a file |
+| `cat <<EOL>> A.txt` <kbd>↵</kbd> hahaha <kbd>↵</kbd> `EOL` <kbd>↵</kbd> | append text to file |
 | `find -name test.txt` | for finding files |
 | `find / -name test.txt` | for finding files and folders |
 | `diff test1.txt test2.txt` | |
