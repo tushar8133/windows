@@ -1,3 +1,7 @@
+
+[Jump to Section 2](#section2)
+
+
 # Linux
 
 ## Bootloader
@@ -310,6 +314,8 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 
 ---
 
+# Section 2
+
 
 | COMMANDS | DESCRIPTIN |
 |-|-|
@@ -317,7 +323,6 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `curl` | |
 | `ln` | |
 | `alias` | |
-| `chmod` | |
 | `sort -k2 test.txt` | |
 | `echo hahaha` | display text in console, from a console |
 | `echo hahaha > file.txt` | overwrite text to a file |
@@ -344,6 +349,7 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `mkdir myfolder` | make directory |
 | `rmdir folder1` | remove directory and files within |
 | `rm test.txt` | remove files |
+| `rm -rf foldername` | remove folder with files (`-r` recursive, `-f` force) |
 | `locate -i redhouse**city*` | search in whole OS |
 | `pwd` | present working directory |
 | `whoami` | username |
@@ -353,8 +359,48 @@ install `xinit` (already done in previous steps) and run `startx` to start the c
 | `less` | page by page decrement order |
 | `some_command_output \| more`| combine with other commands also |
 
+# chmod
+||User|Group|Other|
+|-:|:-:|:-:|:-:|
+|__Read__|4|2|1|
+|__Write__|4|2|1|
+|__Execute__|4|2|1|
 
-## `grep`
+#### permission
+- `r` Read
+- `w` Write
+- `x` Execute
+- `-` No Permission
+
+#### who
+- `u` User
+- `g` Group
+- `o` Other
+- `a` All (same as `ugo`)
+
+#### operators
+- `=` set
+- `+` add
+- `-` remove
+
+```
+$ chmod 777 filename
+$ chmod u=rwx,g=rwx,o=rwx filename
+$ chmod a=rwx filename
+```
+
+```
+$ chmod 664 filename
+$ chmod u=rw,g=rw,o=r filename
+$ chmod a+rwx,u-x,g-x,o-wx filename
+```
+
+```
+$ chmod -R 777 foldername
+```
+
+
+# `grep`
 `grep -in "my-regex-here" filename.txt`
 
 `i` IgnoreCase  
