@@ -1,5 +1,5 @@
 
-[Jump to Section 2](#section2)
+[Jump to Section 2](#section-2)
 
 
 # Linux
