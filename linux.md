@@ -1,5 +1,6 @@
+- [Commands](#section-2)
+- [Archive Compression formats](#archive-compression-formats)
 
-[Jump to Section 2](#section-2)
 
 
 # Linux
@@ -416,6 +417,79 @@ $ chmod -R 777 foldername
 * `grep -r "my-regex-here" ./dir1 > output.txt` print result in separate file
 
 It can be combined with other commands, like `ls | grep "html"`
+
+
+---
+
+
+# Archive Compression formats
+- `tar` archive format (does not compress)
+- `gzip` low compression
+- `bzip2` medium compression
+- `xz` high compression
+
+# Compress single file
+- `zip video.mp4`
+- `gzip video.mp4`
+- `bzip2 video.mp4`
+
+# Extract
+- `unzip archive.zip`
+- `gunzip archive.gzip`
+- `bunzip2 archive.bz2`
+- `gunzip archive.xz`
+
+
+# Archive & Compression Extensions
+- `.gz` (gzip) _[DEFLATE]_
+- `.bz` (bzip)
+- `.bz2` (bzip2) _[Burrows–Wheeler]_
+- `.xz` (xz) _[LZMA]_
+- `.tar` (tar)
+- `.tar.gz` (tar + gzip)
+- `.tar.bz` (tar + bzip)
+- `.tar.bz2` (tar + bzip2)
+- `.tar.xz` (tar + xz)
+- `.tgz` (tar + gzip)
+- `.tbz` (tar + bzip)
+- `.tbz2` (tar + bzip2)
+- `.txz` (tar + xz)
+
+
+# `tar -options`
+- `tar -c` : Creates Archive 
+- `tar -x` : Extract the archive 
+- `tar -v` : Displays Verbose Information 
+- `tar -f` : creates archive with given filename 
+- `tar -t` : displays or lists files in archived file 
+- `tar -u` : archives and adds to an existing archive file 
+- `tar -A` : Concatenates the archive files 
+- `tar -W` : Verify a archive file 
+- `tar -r` : update or add file or directory in already existed .tar file 
+- `tar -z` : gzip
+- `tar -j` : bzip2
+- `tar -J` : xz
+
+# Examples
+
+- __Create archive without compression__
+	- `tar -cvf archive.tar /myfolder/A`
+
+- __Create archive of only `.txt` files__
+	- `tar -cvf archive.tar *.txt`
+
+- __Create gzip archive from multiple paths, excluding specifics__
+	- `tar -czvf archive.tar.gz /myfolder/A /myfolder/B /myfolder/C --exclude=/myfolder/A/temp --exclude=*.mp4`
+
+- __Extract `tar.gz` archive__
+	- `tar -xzvf archive.tar.gz -C /pathtoextract`
+
+- __Extract `tar.bz2` archive__
+	- `tar -xjvf archive.tar.bz2 -C /pathtoextract`
+
+
+---
+
 
 # Websites
 - https://suckless.org
