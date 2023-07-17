@@ -76,6 +76,9 @@ sudo chflags noschg /etc/hosts
 # Caffeinate
 `caffeinate -dimsu`
 
+# Extract
+`gunzip archive.xy` Unzips .xy extension file (will take some time in the background) and deletes the original file afterwards.
+
 # Softwares
 - https://github.com/MacPass/MacPass
 - https://github.com/p0deje/Maccy
