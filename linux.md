@@ -395,6 +395,7 @@ $ chmod u=rw,g=rw,o=r filename
 $ chmod a+rwx,u-x,g-x,o-wx filename
 ```
 
+Folder `-R` for recursive
 ```
 $ chmod -R 777 foldername
 ```
