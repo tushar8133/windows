@@ -481,10 +481,13 @@ It can be combined with other commands, like `ls | grep "html"`
 - __Create gzip archive from multiple paths, excluding specifics__
 	- `tar -czvf archive.tar.gz /myfolder/A /myfolder/B /myfolder/C --exclude=/myfolder/A/temp --exclude=*.mp4`
 
-- __Extract `tar.gz` archive__
+- __Extract `.tar` archive__
+	- `tar -xvf archive.tar -C /pathtoextract`
+
+- __Extract `.tar.gz` archive__
 	- `tar -xzvf archive.tar.gz -C /pathtoextract`
 
-- __Extract `tar.bz2` archive__
+- __Extract `.tar.bz2` archive__
 	- `tar -xjvf archive.tar.bz2 -C /pathtoextract`
 
 
