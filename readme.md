@@ -1,10 +1,4 @@
-# Windows
 
-### SHELL GUID Shorcuts [(shell-guid.md)](shell-guid.md)
-
-### BATCH FILE [(batch.md)](batch.md)
-
-## RUN Commands [(ss64.com)](https://ss64.com/nt/shell.html)
 
 * `%ALLUSERSPROFILE%` - C:\ProgramData
 * `%APPDATA%` - C:\Users\{username}\AppData\Roaming
