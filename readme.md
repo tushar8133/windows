@@ -1,4 +1,23 @@
+# Softwares
+- WinDirStat, SpaceSniffer, WizTree
+- WindowGrid, WindowBlinds
+- Rufus, Ventoy, Etcher
+- WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- [Mouse Highlight](https://catnip5.itch.io/mouse-highlight)
+- [Sordum](https://www.sordum.org/downloads)
+  - [disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
+  - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
+  - [disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 
+# ISO Download links
+* [MVS Collection](https://isofiles.bd581e55.workers.dev)
+* [TechBench by WZT](https://tb.rg-adguard.net/public.php)
+* [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
+* [UUP Dump](https://uupdump.net)
+* [RG-adguard](https://uup.rg-adguard.net)
+* [LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)
+
+#
 
 * `%ALLUSERSPROFILE%` - C:\ProgramData
 * `%APPDATA%` - C:\Users\{username}\AppData\Roaming
@@ -73,28 +92,8 @@
 * Allow pressing the `Y key`
 * Done
 
-# Softwares
-- WinDirStat, SpaceSniffer
-- WindowGrid, WindowBlinds
-- Rufus, Ventoy, Etcher
-- WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
-- [Mouse Highlight](https://catnip5.itch.io/mouse-highlight)
-- [Sordum](https://www.sordum.org/downloads)
-  - [disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
-  - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
-  - [disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
-
-# ISO Download links
-* [MVS Collection](https://isofiles.bd581e55.workers.dev)
-* [TechBench by WZT](https://tb.rg-adguard.net/public.php)
-* [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
-* [UUP Dump](https://uupdump.net)
-* [RG-adguard](https://uup.rg-adguard.net)
-* [LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)
-
 # `file.vbs` start hidden program
 - `CreateObject("Wscript.Shell").Run "program.exe", 0`
-
 
 # Windows Shortcuts
 
