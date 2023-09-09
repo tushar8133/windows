@@ -190,3 +190,6 @@ del /A:r /A:s /A:h /S /F /P
 
 ---
 
+# Environment Variables
+- sysdm.cpl
+
