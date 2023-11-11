@@ -193,3 +193,11 @@ del /A:r /A:s /A:h /S /F /P
 # Environment Variables
 - sysdm.cpl
 
+# Networking commands
+- `netsh winsock reset` it will reset winsock
+- `netsh int ip reset` bunch of system settings will reset
+- `ipconfig /release` Removes the system’s current IP address.
+- `ipconfig /renew` it will renew the system’s IP address
+- `ipconfig /flushdns` it will flush your DNS cache
+- `ping google.com` to test
+
