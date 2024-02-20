@@ -32,6 +32,10 @@
 * [RG-adguard](https://uup.rg-adguard.net)
 * [LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)
 
+# Websites
+- [Photoshop photopea](https://www.photopea.com)
+- [Random Pics GET URL](https://picsum.photos)
+
 #
 
 * `%ALLUSERSPROFILE%` - C:\ProgramData
