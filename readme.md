@@ -1,15 +1,28 @@
 # Softwares
-- WinDirStat, SpaceSniffer, WizTree
-- WindowGrid, WindowBlinds
-- Rufus, Ventoy, Etcher
-- WinAero Tweaker, [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil), [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- [WinDirStat](https://windirstat.net/wds_current_setup.exe),
+- [SpaceSniffer](https://sourceforge.net/projects/spacesniffer)
+- [WizTree](https://diskanalyzer.com/download)
+- [WindowGrid](http://windowgrid.net)
+- [WindowBlinds](https://www.stardock.com/products/windowblinds)
+- [Rufus](https://rufus.ie/en/)
+- [Ventoy](https://www.ventoy.net/en/download.html)
+- [Balena Etcher](https://etcher.balena.io)
+- [WinAero Tweaker](https://winaerotweaker.com)
+- [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil)
+- [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
 - [ChoEazyCopy](https://github.com/Cinchoo/ChoEazyCopy)
+- [Thorium Browser](https://github.com/Alex313031/Thorium)
+- [Chrome msi](https://dl.google.com/chrome/install/googlechromestandaloneenterprise64.msi)
+- [VLC ftp](http://download.videolan.org/pub/videolan/vlc/)
+- [7zip](https://www.7-zip.org/download.html)
+- [NanaZip](https://github.com/M2Team/NanaZip)
 - [MinGit](https://github.com/git-for-windows/git/releases)
+- [NodeJs FTP](https://nodejs.org/download/release)
 - [Mouse Highlight](https://catnip5.itch.io/mouse-highlight)
 - [Sordum](https://www.sordum.org/downloads)
-  - [disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
-  - [disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
-  - [disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
+- [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
+- [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
+- [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 
 # ISO Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
