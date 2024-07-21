@@ -220,3 +220,7 @@ del /A:r /A:s /A:h /S /F /P
 - `ipconfig /flushdns` it will flush your DNS cache
 - `ping google.com` to test
 
+Open folder
+- CMD - `start .`
+- Powershell - `ii .`
+
