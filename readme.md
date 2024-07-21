@@ -220,7 +220,24 @@ del /A:r /A:s /A:h /S /F /P
 - `ipconfig /flushdns` it will flush your DNS cache
 - `ping google.com` to test
 
-Open folder
+# Open folder
 - CMD - `start .`
 - Powershell - `ii .`
 
+# Symbolic Link
+For help `mklink /?`
+- New
+  - Symlink
+    - Supports Files, Directories, Network.
+    - For Directory `mklink /D Z:\newfolder C:\existingfolder`
+    - For Files `mklink Z:\newfile.txt C:\existingfile.txt`
+- Legacy
+  - Junction
+    - Legacy provision
+    - Also called Softlink
+    - Only for Directories
+    - `mklink /J Z:\newfolder C:\existingfolder`
+  - Hardlink
+    - Legacy provision
+    - Only for Files
+    - `mklink /H Z:\newfile.txt C:\existingfile.txt`
