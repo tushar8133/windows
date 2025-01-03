@@ -23,6 +23,8 @@
 - [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
 - [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
 - [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
+- [FFMPEG (args)](https://alfg.dev/ffmpeg-commander)
+- [7zip (args)](https://axelstudios.github.io/7z)
 
 # ISO Download links
 * [MVS Collection](https://isofiles.bd581e55.workers.dev)
