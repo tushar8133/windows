@@ -244,3 +244,6 @@ For help `mklink /?`
     - Legacy provision
     - Only for Files
     - `mklink /H Z:\newfile.txt C:\existingfile.txt`
+
+# one-drive | onedrive | recyclebin
+- `xxxxx.sharepoint.com/secondstagerecyclebin`
