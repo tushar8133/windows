@@ -25,6 +25,9 @@
 - [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
 - [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
 - [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
+- [PCem (old hardware emulator)](https://github.com/sarah-walker-pcem/pcem)
+- [86Box (old hardware emulator)](https://github.com/86Box/86Box)
+- [Mouse cursor fix between multiple monitors](https://github.com/mgth/LittleBigMouse)
 
 
 # ISO Download links
@@ -125,12 +128,23 @@
 * Set **`Target`** - `C:\Program Files\something.exe -c "npm start; $SHELL"`
 * Set **`Start In`** - `D:\MyProjects`
 
-### Shutdown
-`shutdown -r -t 0`
+### Shutdown / Restart / Reboot
+- `shutdown /t 1` shutdown
+- `shutdown /r /t 1` reboot
+- `shutdown /r /fw /t 1` reboot to bios
 
 ### Windows Install Screen
 `Shift + F10` Will open command promt with X drive  
 `Ctrl + Shift + F3` will open start OOBE
+
+### Open folder from terminal
+- `ii .` powershell - to open current folder in file explorer
+- `start .` cmd - to open current folder in file explorer
+- `ctrl + l` `cmd` - to open cmd from file explorer
+- `ctrl + l` `powershell` to open powershell from file explorer
+
+### Encrypt folder
+open cmd as admin, goto folder path, run this command `cipher /e` and then only you will be able to open this folder, not other users
 
 ---
 
@@ -223,9 +237,6 @@ del /A:r /A:s /A:h /S /F /P
 - `ipconfig /flushdns` it will flush your DNS cache
 - `ping google.com` to test
 
-# Open folder
-- CMD - `start .`
-- Powershell - `ii .`
 
 # Symbolic Link
 For help `mklink /?`
