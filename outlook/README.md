@@ -1,6 +1,8 @@
-# Prevent Meeting Invite delete | Mark read before deleting
-![selection](image1.png)
+# Links
+- https://outlook.office365.com/mail/recoverableitemsdeletions
+- https://outlook.office365.com/mail/deleteditems
 
 
-# Text Selection
-![selection](image2.png)
+# Settings
+- ![selection](image1.png)
+- ![selection](image2.png)
