@@ -258,3 +258,9 @@ For help `mklink /?`
 
 # one-drive | onedrive | recyclebin
 - `xxxxx.sharepoint.com/secondstagerecyclebin`
+
+# Create Local Account 
+- `Shift + F10`
+- New method `start ms-cxh:localonly`
+- Old method `oobe\bypassnro`
+
