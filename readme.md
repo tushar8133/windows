@@ -256,8 +256,9 @@ For help `mklink /?`
     - Only for Files
     - `mklink /H Z:\newfile.txt C:\existingfile.txt`
 
-# one-drive | onedrive | recyclebin
-- `xxxxx.sharepoint.com/secondstagerecyclebin`
+# MS-Office Links
+- onedrive recyclebin `xxxxx.sharepoint.com/secondstagerecyclebin`
+- onenote list `https://onenote.com/notebooks?auth=2`
 
 # Create Local Account 
 - `Shift + F10`
