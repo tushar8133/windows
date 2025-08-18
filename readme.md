@@ -266,10 +266,9 @@ For help `mklink /?`
 - New method `start ms-cxh:localonly`
 - Old method `oobe\bypassnro`
 
-
 # winget
 
-Run in Powershell (with Admin??) (32 or 64)??
+Open PowerShell (x64) as Admin
 ```ps
 irm https://github.com/asheroto/winget-install/releases/latest/download/winget-install.ps1 | iex
 ```
@@ -285,3 +284,24 @@ winget install --id Google.Chrome --source winget --accept-source-agreements --a
 winget install --id Localsend.Localsend --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id GlennDelahoy.SnappyDriverInstallerOrigin --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 ```
+
+
+# Microsoft C++ Build Tools (MSVC compiler)
+
+```ps
+winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.UniversalBuildTools --add Microsoft.VisualStudio.Component.UWP.VC.ARM64 --add Microsoft.VisualStudio.Component.VC.Tools.ARM64 --add Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools --add Microsoft.VisualStudio.Component.Windows11SDK.26100 --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang"
+```
+- If require `winget install LLVM.LLVM`
+- [workload-component-id-vs-build-tools](https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2022)
+- [workload-component-id-vs-community](https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2022&preserve-view=true)
+- [command-line-parameters](https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022)
+- [windows-sdk](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk) _([download iso](https://go.microsoft.com/fwlink/?linkid=2332023))_
+- [visual-cpp-build-tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) _([download exe](https://aka.ms/vs/17/release/vs_BuildTools.exe))_
+    - Desktop development with C++
+    - WinUl application development build tools
+    > C++ Universal Windows Platform support for v143 build tools (ARM64/ARM64EC)
+- ENV PATH (if require)
+  ```
+  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
+  C:\Program Files\LLVM\bin
+  ```
