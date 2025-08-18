@@ -1,4 +1,12 @@
 # Softwares
+- ChrisTitusTech `iwr -useb https://christitus.com/win | iex`
+- [UniGetUI.x64.zip](https://github.com/marticliment/UniGetUI/releases)
+- [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
+- [WinAero Tweaker](https://winaerotweaker.com)
+- [Sordum](https://www.sordum.org/downloads)
+- [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
+- [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
+- [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 - [WinDirStat](https://windirstat.net/wds_current_setup.exe),
 - [SpaceSniffer](https://sourceforge.net/projects/spacesniffer)
 - [WizTree](https://diskanalyzer.com/download)
@@ -7,9 +15,6 @@
 - [Rufus](https://rufus.ie/en/)
 - [Ventoy](https://www.ventoy.net/en/download.html)
 - [Balena Etcher](https://etcher.balena.io)
-- [WinAero Tweaker](https://winaerotweaker.com)
-- [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil)
-- [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
 - [ChoEazyCopy](https://github.com/Cinchoo/ChoEazyCopy)
 - [Thorium Browser](https://github.com/Alex313031/Thorium)
 - [Chrome msi](https://dl.google.com/chrome/install/googlechromestandaloneenterprise64.msi)
@@ -21,10 +26,6 @@
 - [MinGit](https://github.com/git-for-windows/git/releases)
 - [NodeJs FTP](https://nodejs.org/download/release)
 - [Mouse Highlight](https://catnip5.itch.io/mouse-highlight)
-- [Sordum](https://www.sordum.org/downloads)
-- [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
-- [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
-- [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
 - [PCem (old hardware emulator)](https://github.com/sarah-walker-pcem/pcem)
 - [86Box (old hardware emulator)](https://github.com/86Box/86Box)
 - [Mouse cursor fix between multiple monitors](https://github.com/mgth/LittleBigMouse)
@@ -283,6 +284,4 @@ winget install --id SublimeHQ.SublimeText.4 --source winget --accept-source-agre
 winget install --id Google.Chrome --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id Localsend.Localsend --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id GlennDelahoy.SnappyDriverInstallerOrigin --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
-winget install --id Rustlang.Rustup --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
-winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 ```
