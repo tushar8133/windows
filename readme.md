@@ -285,6 +285,12 @@ winget install --id Localsend.Localsend --source winget --accept-source-agreemen
 winget install --id GlennDelahoy.SnappyDriverInstallerOrigin --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 ```
 
+```
+winget install --id VideoLAN.VLC
+winget install --id DominikReichl.KeePass.Classic
+winget install --id LocalSend.LocalSend
+```
+
 
 # Microsoft C++ Build Tools (MSVC compiler)
 
