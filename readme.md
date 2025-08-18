@@ -281,14 +281,13 @@ winget install --id OpenJS.NodeJS.LTS --source winget --accept-source-agreements
 winget install --id Microsoft.VisualStudioCode --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id SublimeHQ.SublimeText.4 --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id Google.Chrome --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
-winget install --id Localsend.Localsend --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id LocalSend.LocalSend --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id GlennDelahoy.SnappyDriverInstallerOrigin --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 ```
 
 ```
 winget install --id VideoLAN.VLC
 winget install --id DominikReichl.KeePass.Classic
-winget install --id LocalSend.LocalSend
 ```
 
 
