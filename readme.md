@@ -265,3 +265,24 @@ For help `mklink /?`
 - New method `start ms-cxh:localonly`
 - Old method `oobe\bypassnro`
 
+
+# winget
+
+Run in Powershell (with Admin??) (32 or 64)??
+```ps
+irm https://github.com/asheroto/winget-install/releases/latest/download/winget-install.ps1 | iex
+```
+
+Install Programs
+```
+winget install --id 7zip.7zip --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Git.Git --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id OpenJS.NodeJS.LTS --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Microsoft.VisualStudioCode --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id SublimeHQ.SublimeText.4 --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Google.Chrome --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Localsend.Localsend --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id GlennDelahoy.SnappyDriverInstallerOrigin --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Rustlang.Rustup --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
+```
