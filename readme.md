@@ -270,7 +270,7 @@ For help `mklink /?`
 
 Invoke-WebRequest
 ```
-iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "C:\Users\tushar\Desktop\vs_BuildTools.exe"
+iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "vs_BuildTools.exe"
 ```
 
 Invoke-RestMethod
@@ -330,6 +330,7 @@ winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--pass
   ```
 - Other commands
   - ```
+    iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "vs_BuildTools.exe"
   	winget install LLVM.LLVM
   	```
   - ```
