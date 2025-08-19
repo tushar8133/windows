@@ -266,6 +266,20 @@ For help `mklink /?`
 - New method `start ms-cxh:localonly`
 - Old method `oobe\bypassnro`
 
+# powershell
+
+Invoke-WebRequest
+```
+iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "C:\Users\tushar\Desktop\vs_BuildTools.exe"
+```
+
+Invoke-RestMethod
+```
+irm -Uri "https://jsonplaceholder.typicode.com/posts/1"
+(irm -Uri "https://cat-fact.herokuapp.com/facts/random").Text
+(irm -Uri "https://jsonplaceholder.typicode.com/posts/1").Content
+```
+
 # winget
 
 Open PowerShell (x64) as Admin
