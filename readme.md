@@ -293,7 +293,7 @@ irm https://github.com/asheroto/winget-install/releases/latest/download/winget-i
 ```
 
 Install Programs
-```
+```cmd
 winget install --id 7zip.7zip --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id Git.Git --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
 winget install --id OpenJS.NodeJS.LTS --source winget --accept-source-agreements --accept-package-agreements --scope=machine --silent
@@ -311,57 +311,46 @@ winget install --id DominikReichl.KeePass.Classic
 
 
 # Microsoft C++ Build Tools (MSVC compiler)
-
-Standalone
-```powershell
-winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.UniversalBuildTools --add Microsoft.VisualStudio.Component.UWP.VC.ARM64 --add Microsoft.VisualStudio.Component.VC.Tools.ARM64 --add Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools --add Microsoft.VisualStudio.Component.Windows11SDK.26100 --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang"
-```
-
-With Visual Studio
-```powershell
-winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --add ProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"
-```
-
+- Standalone
+  ```powershell
+  winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.UniversalBuildTools --add Microsoft.VisualStudio.Component.UWP.VC.ARM64 --add Microsoft.VisualStudio.Component.VC.Tools.ARM64 --add Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools --add Microsoft.VisualStudio.Component.Windows11SDK.26100 --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang"
+  ```
+- With Visual Studio
+  ```powershell
+  winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --add ProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"
+  ```
+- Download vs_BuildTools.exe without browser
+  ```
+  iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "vs_BuildTools.exe"
+  ```    
+- Install LLVM (if required)
+  ```
+  winget install LLVM.LLVM
+  ```
+- ENV paths (if required)
+  ```
+  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
+  C:\Program Files\LLVM\bin
+  ```
+- Backup Offline commands (full backup around 300GB)
+  ```
+  c:\Users\tushar\Downloads\vs_buildtools.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --includeOptional --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.UniversalBuildTools --add Microsoft.VisualStudio.Component.UWP.VC.ARM64 --add Microsoft.VisualStudio.Component.VC.Tools.ARM64 --add Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools --add Microsoft.VisualStudio.Component.Windows11SDK.26100 --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang --lang en-US
+  c:\Users\tushar\Downloads\vs_buildtools.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --includeOptional --lang en-US
+  c:\Users\tushar\Downloads\vs_buildtools.exe --layout c:\localVSlayout --lang en-US
+  ```
+- Restore Offline commands
+  ```
+  c:\localVSlayout\vs_buildtools.exe --installPath "C:\VSBuildTools" --wait --all
+  c:\localVSlayout\vs_buildtools.exe --installPath "C:\VSBuildTools" --wait --norestart --config "c:\localVSlayout\vs_buildtools.json"
+  c:\localVSlayout\vs_buildtools.exe --installPath "C:\VSBuildTools" --wait --norestart --all --noWeb
+  c:\localVSlayout\vs_buildtools.exe --wait --noWeb --all
+  c:\localVSlayout\vs_buildtools.exe --wait --noWeb --config "c:\localVSlayout\vs_buildtools.json"
+  c:\localVSlayout\vs_buildtools.exe --wait --noWeb
+  ```
 - [workload-component-id-vs-build-tools](https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2022)
 - [workload-component-id-vs-community](https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2022&preserve-view=true)
 - [command-line-parameters](https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022)
 - [windows-sdk](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk) _([download iso](https://go.microsoft.com/fwlink/?linkid=2332023))_
 - [visual-cpp-build-tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) _([download exe](https://aka.ms/vs/17/release/vs_BuildTools.exe))_
     - Desktop development with C++
-    - WinUl application development build tools
-    > C++ Universal Windows Platform support for v143 build tools (ARM64/ARM64EC)
-- ENV PATH (if required)
-  ```
-  C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin
-  C:\Program Files\LLVM\bin
-  ```
-- Other commands
-  - ```
-    iwr -Uri "https://aka.ms/vs/17/release/vs_BuildTools.exe" -OutFile "vs_BuildTools.exe"
-  	winget install LLVM.LLVM
-  	```
-  - ```
-  	winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.UniversalBuildTools --add Microsoft.VisualStudio.Component.UWP.VC.ARM64 --add Microsoft.VisualStudio.Component.VC.Tools.ARM64 --add Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools --add Microsoft.VisualStudio.Component.Windows11SDK.26100 --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang"
-  	```
-  - ```
-  	winget install Microsoft.VisualStudio.2022.BuildTools
-  	```
-  - ```
-  	winget install Microsoft.VisualStudio.2022.Community
-  	```
-  - ```
-  	winget install Microsoft.VisualStudio.2022.Community --silent --override "--wait --quiet --add ProductLang En-us --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"
-  	```
-  - ```
-  	winget install Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.VisualStudio.Workload.NativeDesktop"
-  	```
-  - ```
-  	vs_buildtools.exe --layout c:\localVSlayout --lang en-US
-  	```
-  - ```
-  	vs_buildtools.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --includeOptional --lang en-US
-  	```
-  - ```
-  	vs_buildtools.exe --noWeb
-  	```
-
+    - WinUl application development build tools _(C++ Universal Windows Platform support for v143 build tools (ARM64/ARM64EC))_
