@@ -280,6 +280,11 @@ irm -Uri "https://jsonplaceholder.typicode.com/posts/1"
 (irm -Uri "https://jsonplaceholder.typicode.com/posts/1").Content
 ```
 
+# powershell/cmd quickmode
+```
+REG ADD HKEY_CURRENT_USER\Console /v QuickEdit /t REG_DWORD /d 0 /f
+```
+
 # winget
 
 Open PowerShell (x64) as Admin
