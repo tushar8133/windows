@@ -48,6 +48,7 @@
     * [windows_server_2025](https://drive.massgrave.dev/en-us_windows_server_2025_updated_aug_2025_x64_dvd_9236d79b.iso)
     * [windows_server_2022](https://drive.massgrave.dev/en-us_windows_server_2022_updated_aug_2025_x64_dvd_0f3822cf.iso)
     * [windows_server_2019](https://drive.massgrave.dev/en-us_windows_server_2019_x64_dvd_f9475476.iso)
+* https://msdl.gravesoft.dev
 * https://archive.isdn.network/artifacts
 * https://os.click
 * [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
@@ -56,6 +57,14 @@
 * ~~[LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)~~
 * ~~[MVS Collection](https://isofiles.bd581e55.workers.dev)~~
 * ~~[TechBench by WZT](https://tb.rg-adguard.net/public.php)~~
+* Windows 8, 10, 11
+  ```powershell
+  irm https://get.activated.win | iex
+  ```
+* Windows 7
+  ```powershell
+  iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+  ```
 
 # Websites
 - [Photoshop photopea](https://www.photopea.com)
