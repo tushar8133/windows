@@ -32,6 +32,24 @@
 
 
 # ISO Download links
+* Microsoft
+	* [Win11_24H2_English_Arm64.iso](https://www.microsoft.com/en-us/software-download/windows11arm64)
+	* [Microsoft windows-11-iot-enterprise-ltsc](https://www.microsoft.com/en-us/evalcenter/download-windows-11-iot-enterprise-ltsc-eval)
+		* [x64](https://go.microsoft.com/fwlink/?linkid=2270353&clcid=0x409&culture=en-us&country=us)
+	 	* [arm64](https://go.microsoft.com/fwlink/?linkid=2269595&clcid=0x409&culture=en-us&country=us)
+		* [Check Hash Value (pdf)](https://go.microsoft.com/fwlink/?linkid=2206412)
+* massgrave
+	* [windows_11_iot_enterprise_ltsc_2024_arm64](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_arm64_dvd_ec517836.iso)
+	* [windows_11_iot_enterprise_ltsc_2024_x64](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso)
+  	* [windows_10_iot_enterprise_ltsc_2021_arm64](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso)
+    * [windows_10_iot_enterprise_ltsc_2021_x64](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso)
+    * [windows_7_ultimate_with_sp1_x64](https://drive.massgrave.dev/en_windows_7_ultimate_with_sp1_x64_dvd_u_677332.iso)
+    * [windows_xp_professional_with_service_pack_3_x86](https://drive.massgrave.dev/en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso)
+    * [windows_server_2025](https://drive.massgrave.dev/en-us_windows_server_2025_updated_aug_2025_x64_dvd_9236d79b.iso)
+    * [windows_server_2022](https://drive.massgrave.dev/en-us_windows_server_2022_updated_aug_2025_x64_dvd_0f3822cf.iso)
+    * [windows_server_2019](https://drive.massgrave.dev/en-us_windows_server_2019_x64_dvd_f9475476.iso)
+* https://archive.isdn.network/artifacts
+* https://os.click
 * [KMS](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 * [UUP Dump](https://uupdump.net)
 * [RG-adguard](https://uup.rg-adguard.net) useful for checking hash values
