@@ -413,5 +413,5 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
 - Method3
   ```
   https://christitus.com/disable-win-defender
-  https://christitus.com/disable-win-defender/
+  https://christitus.com/files/windefender_disable.reg
   ```
