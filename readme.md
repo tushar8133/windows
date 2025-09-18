@@ -399,6 +399,7 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
 - Method1
   ```powershell
   iwr -Uri "https://github.com/ionuttbara/windows-defender-remover/releases/download/release_def_12_8_4/DefenderRemover.exe" -OutFile "$env:USERPROFILE\Downloads\DefenderRemover.exe"
+  Start-Process -FilePath "$env:USERPROFILE\Downloads\DefenderRemover.exe"
   ```
 - Method2 (boot to safe mode and paste in powershell)
   ```powershell
