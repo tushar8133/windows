@@ -416,3 +416,15 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
   https://christitus.com/disable-win-defender
   https://christitus.com/files/windefender_disable.reg
   ```
+
+# Parllels
+- Install Windows, Linux, or MacOS from an image file
+- Choose Manually
+- Continue without a source
+- Windows 11
+- Customize settings before installation
+- Hardware
+  - Network (Disconnect)
+  - CD/DVD 1 (win11.iso)
+  - CD/DVD 2 (/Applications/Parallels Desktop.app/Contents/Resources/Tools/prl-tools-win-arm.iso)
+  - CD/DVD 3 (unattend.iso) "Download .xml wrapped in .iso file" | https://schneegans.de/windows/unattend-generator
