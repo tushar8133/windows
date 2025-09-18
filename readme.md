@@ -433,3 +433,5 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
   - CD/DVD 1 (win11.iso)
   - CD/DVD 2 (/Applications/Parallels Desktop.app/Contents/Resources/Tools/prl-tools-win-arm.iso)
   - CD/DVD 3 (unattend.iso)
+- Security
+  - Isolate Windows from Mac
