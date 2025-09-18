@@ -161,6 +161,7 @@
 - `shutdown /t 1` shutdown
 - `shutdown /r /t 1` reboot
 - `shutdown /r /fw /t 1` reboot to bios
+- `shutdown /r /o` reboot to advance options menu
 
 ### Windows Install Screen
 `Shift + F10` Will open command promt with X drive  
