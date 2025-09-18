@@ -395,3 +395,23 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
 - Page - [workload-component-id-vs-community](https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2022&preserve-view=true)
 - Page - [command-line-parameters](https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022)
 
+# Remove Defender
+- Method1
+  ```powershell
+  iwr -Uri "https://github.com/ionuttbara/windows-defender-remover/releases/download/release_def_12_8_4/DefenderRemover.exe" -OutFile "$env:USERPROFILE\Downloads\DefenderRemover.exe"
+  ```
+- Method2
+  ```powershell
+  $regpath='HKLM:\SYSTEM\CurrentControlSet\Services'
+  Set-ItemProperty -Path ($regpath+"\WinDefend") -Name Start -Value 4
+  Set-ItemProperty -Path ($regpath+"\Sense") -Name Start -Value 4
+  Set-ItemProperty -Path ($regpath+"\WdFilter") -Name Start -Value 4
+  Set-ItemProperty -Path ($regpath+"\WdNisDrv") -Name Start -Value 4
+  Set-ItemProperty -Path ($regpath+"\WdNisSvc") -Name Start -Value 4
+  Set-ItemProperty -Path ($regpath+"\WdBoot") -Name Start -Value 4
+  ```
+- Method3
+  ```
+  https://christitus.com/disable-win-defender
+  https://christitus.com/disable-win-defender/
+  ```
