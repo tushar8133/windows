@@ -1,5 +1,6 @@
 # Softwares
 - ChrisTitusTech `iwr -useb https://christitus.com/win | iex`
+- https://schneegans.de/windows/unattend-generator
 - [UniGetUI.x64.zip](https://github.com/marticliment/UniGetUI/releases)
 - [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
 - [WinAero Tweaker](https://winaerotweaker.com)
@@ -7,7 +8,7 @@
 - [Sordum disable SmartScreen, ZoneInfo, Streams](https://www.sordum.org/'downloads/?streams-remover)
 - [Sordum disable Windows Updates](https://www.sordum.org/'downloads/?st-windows-update-blocker)
 - [Sordum disable Defender](https://www.sordum.org/9480/defender-control-v2-1)
-- [WinDirStat](https://windirstat.net/wds_current_setup.exe),
+- [WinDirStat](https://windirstat.net/wds_current_setup.exe)
 - [SpaceSniffer](https://sourceforge.net/projects/spacesniffer)
 - [WizTree](https://diskanalyzer.com/download)
 - [WindowGrid](http://windowgrid.net)
