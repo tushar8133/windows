@@ -311,7 +311,15 @@ irm -Uri "https://jsonplaceholder.typicode.com/posts/1"
 (irm -Uri "https://jsonplaceholder.typicode.com/posts/1").Content
 ```
 
-# disable quickmode
+##### PowerShell ExecutionPolicy
+- `Get-ExecutionPolicy -List` - list
+- `Set-ExecutionPolicy Bypass` - allow all ps1 files
+- `Set-ExecutionPolicy Unrestricted` - allow all, but restrict ps1 files downloaded from internet
+- `Set-ExecutionPolicy "Unrestricted" -Scope "CurrentUser" -Force` - for current user only
+- `PowerShell.exe -ExecutionPolicy Bypass -File "C:\Path\To\YourScript.ps1"` - allow single file
+
+
+# Disable CMD quickmode
 ```
 REG ADD HKEY_CURRENT_USER\Console /v QuickEdit /t REG_DWORD /d 0 /f
 ```
