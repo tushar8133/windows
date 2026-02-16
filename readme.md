@@ -1,5 +1,18 @@
+# Utilities
+- ChrisTitusTech
+  ```powershell
+  iwr -useb https://christitus.com/win | iex
+  ```
+- Activate
+  ```powershell
+  irm https://get.activated.win | iex
+  ```
+- Defender
+  ```powershell
+  iwr -Uri "https://github.com/ionuttbara/windows-defender-remover/releases/download/release13/DefenderRemover.exe" -OutFile "C:\DefenderRemover.exe"; Start-Process "C:\DefenderRemover.exe"
+  ```
+
 # Softwares
-- ChrisTitusTech `iwr -useb https://christitus.com/win | iex`
 - https://schneegans.de/windows/unattend-generator
 - [UniGetUI.x64.zip](https://github.com/marticliment/UniGetUI/releases)
 - [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
@@ -58,14 +71,6 @@
 * ~~[LiteOS](https://winter-water-b58b.litemacos.workers.dev/0:/)~~
 * ~~[MVS Collection](https://isofiles.bd581e55.workers.dev)~~
 * ~~[TechBench by WZT](https://tb.rg-adguard.net/public.php)~~
-* Windows 8, 10, 11
-  ```powershell
-  irm https://get.activated.win | iex
-  ```
-* Windows 7
-  ```powershell
-  iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
-  ```
 
 # Websites
 - [Photoshop photopea](https://www.photopea.com)
@@ -290,12 +295,12 @@ For help `mklink /?`
 - onedrive recyclebin `xxxxx.sharepoint.com/secondstagerecyclebin`
 - onenote list `https://onenote.com/notebooks?auth=2`
 
-# Create Local Account 
-- `Shift + F10`
-	- ~`start ms-cxh:localonly`~
-	- ~`oobe\bypassnro`~
-	- `reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f`, `shutdown /r /t 0`
- 	- `curl -L christitus.com/bypass -o skip.cmd`
+# Create Local Account
+- `Shift + F10` `start ms-cxh:localonly`
+- `Shift + F10` `oobe\bypassnro`
+- `Shift + F10` `reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f` `shutdown /r /t 0`
+- `Shift + F10` `curl -L christitus.com/bypass -o skip.cmd`
+- `Control + Shift + J` `WinJS.Application.restart("ms-cxh:localonly")`
 
 # POWERSHELL
 
