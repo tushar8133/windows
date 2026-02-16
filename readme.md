@@ -434,10 +434,10 @@ winget install --id Rustlang.Rust.MSVC --source winget --accept-source-agreement
 ---
 ---
 ---
-# ***************** OUTDATED STUFF BELOW *****************
-# ***************** OUTDATED STUFF BELOW *****************
-# ***************** OUTDATED STUFF BELOW *****************
-# ***************** OUTDATED STUFF BELOW *****************
+# ************* OUTDATED STUFF BELOW *************
+# ************* OUTDATED STUFF BELOW *************
+# ************* OUTDATED STUFF BELOW *************
+# ************* OUTDATED STUFF BELOW *************
 ---
 ---
 ---
