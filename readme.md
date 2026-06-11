@@ -43,6 +43,9 @@
 - [PCem (old hardware emulator)](https://github.com/sarah-walker-pcem/pcem)
 - [86Box (old hardware emulator)](https://github.com/86Box/86Box)
 - [Mouse cursor fix between multiple monitors](https://github.com/mgth/LittleBigMouse)
+- Video Editors
+	- https://handbrake.fr
+	- https://kdenlive.org
 
 
 # ISO Download links
