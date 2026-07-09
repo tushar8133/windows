@@ -44,8 +44,9 @@
 - [86Box (old hardware emulator)](https://github.com/86Box/86Box)
 - [Mouse cursor fix between multiple monitors](https://github.com/mgth/LittleBigMouse)
 - Video Editors
-	- https://handbrake.fr
-	- https://kdenlive.org
+	- https://github.com/handbrake/handbrake
+    - https://github.com/66HEX/frame
+    - https//kdenlive.org
 
 
 # ISO Download links
