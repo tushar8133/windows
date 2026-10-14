@@ -51,6 +51,8 @@
 
 # ISO Download links
 * [Check Hash Value (pdf)](https://go.microsoft.com/fwlink/?linkid=2206412)
+* Microsoft [windows_11_enterprise_ltsc_2024_arm64](https://go.microsoft.com/fwlink/?LinkId=2382600&clcid=0x4009&culture=en-us&country=us)
+* Microsoft [windows_11_enterprise_ltsc_2024_x64](https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x4009&culture=en-us&country=us)
 * Microsoft [windows_11_iot_enterprise_ltsc_2024_arm64](https://go.microsoft.com/fwlink/?linkid=2269595&clcid=0x409&culture=en-us&country=us)
 * Microsoft [windows_11_iot_enterprise_ltsc_2024_x64](https://go.microsoft.com/fwlink/?linkid=2270353&clcid=0x409&culture=en-us&country=us)
 * Massgrave [windows_10_iot_enterprise_ltsc_2021_arm64](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso)
