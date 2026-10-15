@@ -49,12 +49,60 @@
     - https//kdenlive.org
 
 
-# ISO Download links
-* [Check Hash Value (pdf)](https://go.microsoft.com/fwlink/?linkid=2206412)
-* Microsoft [windows_11_enterprise_x64](https://go.microsoft.com/fwlink/?LinkId=2382600&clcid=0x4009&culture=en-us&country=us)
-* Microsoft [windows_11_enterprise_ltsc_x64](https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x4009&culture=en-us&country=us)
-* Microsoft [windows_11_iot_enterprise_ltsc_2024_arm64](https://go.microsoft.com/fwlink/?linkid=2269595&clcid=0x409&culture=en-us&country=us)
-* Microsoft [windows_11_iot_enterprise_ltsc_2024_x64](https://go.microsoft.com/fwlink/?linkid=2270353&clcid=0x409&culture=en-us&country=us)
+# ISO
+- |||
+  |-|-|
+  | File | en-us_windows_11_enterprise_ltsc_2024_x64_dvd_965cfb00.iso |
+  | Alternative file names | SW_DVD9_WIN_ENT_LTSC_2024_64-bit_English_MLF_X23-70046.ISO |
+  | Family | Operating Systems |
+  | Version | Windows 11, version 24H2 [26100.1742] (Updated September 2024) |
+  | Language | English - (EN) |
+  | CRC-32 | 761c1980 |
+  | MD5 | 60c6f86bf378892648cfb5524b9416e2 |
+  | SHA-1 | ab341c71d7c83cd5f4dd15e74a6ddda6ea303c46 |
+  | SHA-256 | 157d8365a517c40afeb3106fdd74d0836e1025debbc343f2080e1a8687607f51 |
+  | SHA-512 | ea4e8e31bc45c078eb23b5e1e294c7bab0ba79c1a17769b9e7ede2ad32576d2b31355196f7ce39db8075a115d0464e7d70395b95a6ae6086a45c1f7e85e8e112 |
+  | SHA3-256 | a74487916a24d5ba6788ae7befaada852d0ed4635a65becb8059a1655d979de0 |
+  | SHA3-512 | 21c9c599906d38dda1d01b42e924d84ef65c642c9e560fb76d72f4e76fd8b25742ec5bfe62893e5240e1440a72e606afad3f495f3a97361a9a3a524b349f01da |
+  | Size | 4.774 GB (5125844992 bytes) |
+- |||
+  |-|-|
+  | File | en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso |
+  | Alternative file names | X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso |
+  | Family | Operating Systems |
+  | Version | Windows 11, version 24H2 [26100.1742] (Updated September 2024) |
+  | Language | English - (EN) |
+  | CRC-32 | 482a5898 |
+  | MD5 | 66608a96a4f2d73b4a1d054e76e6eae4 |
+  | SHA-1 | d5dd0a493b6a9c92f7f2a54bb2fb2544587a15fd |
+  | SHA-256 | 4f59662a96fc1da48c1b415d6c369d08af55ddd64e8f1c84e0166d9e50405d7a |
+  | SHA-512 | b3b8ab225537518a9baa3a85124947a1e4dfbb639ea277d9355b17165f195490ad21f44e9b72778ac2a41bc6561a18ed599bb72f6f3648e0cb110b9e1a35bdb9 |
+  | SHA3-256 | 7752f2155526ed6f62579c344a8a8dac3bfe10f718d5b42d42016979269c09e1 |
+  | SHA3-512 | 92877c3eb5b2fdceb5d6c3dedee37516829d4bf409c2fb0be16825eb69b5510b60bdb828ff11b10bf93c383027ce71c8cdb413765eb6fabd50db2009b12ffeec |
+  | Size | 4.791 GB (5144817664 bytes) |
+- | | |
+  | - | - |
+  | File | en-us_windows_11_iot_enterprise_ltsc_2024_arm64_dvd_ec517836.iso |
+  | Alternative file names | X23-81950_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso |
+  | Family | Operating Systems |
+  | Version | Windows 11, version 24H2 [26100.1742] (Updated September 2024) |
+  | Language | English - (EN) |
+  | CRC-32 | 43eacfbc |
+  | MD5 | d5c60d16df2708369e98059f0e15ee94 |
+  | SHA-1 | 5811aca5f0dd3a6c260e1c9e2315334b10888e46 |
+  | SHA-256 | f8f068cdc90c894a55d8c8530db7c193234ba57bb11d33b71383839ac41246b4 |
+  | SHA-512 | fa4bc7823dfd7e9c1776442f2567f8530252fcd5a9ed702a0dfdbdd967d0f6a41c7607f03a154411b8d77d297114946259f403304260f6de94123120d233201d |
+  | SHA3-256 | 83ed0a3fc9508719f16913114740e58aa03b92b67f694e5dd843bb13d8f45db9 |
+  | SHA3-512 | 7c7230fe1cac290e3ca338322da8791ea745dba8b0a6d02395545aa48bd96cd9f07a9daaad1f5d31bd924c2672149e7edd314ba245e01e9a7999f3fb10274a07 |
+  | Size | 4.77 GB (5121449984 bytes) |
+- x64 (evaluation)
+  - [windows_11_multi](https://www.microsoft.com/en-us/software-download/windows11)
+  - [windows_11_enterprise](https://go.microsoft.com/fwlink/?LinkId=2382600&clcid=0x4009&culture=en-us&country=us)
+  - [windows_11_enterprise_ltsc_2024](https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x4009&culture=en-us&country=us)
+  - [windows_11_iot_enterprise_ltsc_2024](https://go.microsoft.com/fwlink/?linkid=2270353&clcid=0x409&culture=en-us&country=us)
+- ARM (evaluation)
+  - [windows_11_multi](https://www.microsoft.com/en-us/software-download/windows11arm64)
+  - [windows_11_iot_enterprise_ltsc_2024](https://go.microsoft.com/fwlink/?linkid=2269595&clcid=0x409&culture=en-us&country=us)
 * Massgrave [windows_10_iot_enterprise_ltsc_2021_arm64](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_arm64_dvd_e8d4fc46.iso)
 * Massgrave [windows_10_iot_enterprise_ltsc_2021_x64](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso)
 * Massgrave [windows_7_ultimate_with_sp1_x64](https://drive.massgrave.dev/en_windows_7_ultimate_with_sp1_x64_dvd_u_677332.iso)
